@@ -1,0 +1,135 @@
+/*Roaming Page Style Start*/
+.timeline > li > .timeline-panel.padding-top0{
+	padding-top: 0px;
+}
+/*Roaming Page Style End*/
+
+/*Subscribe VASes Page Style Start*/
+.active-bg{
+	background: #E8F3F7;
+}
+.padding-left7{
+	padding-left: 7px;
+}
+/*Subscribe VASes Page Style End*/
+
+/*Cori Conversion page style Start*/
+.timeline > li > .timeline-panel.padding-top0 {
+    padding-top: 0px;
+}
+
+.timeline-badge .padding10 {
+    padding: 10px;
+}
+.cori-ver-top{
+	top: -3px;
+}
+.info-term-icon{
+	position: relative;
+	top:-5px;
+}
+/*Upload file Style Start*/
+.browse-file-area {
+    border-radius: 10px;
+    border: 2px dotted #9cd4e0;
+}
+.browse-preview-input {
+    position: relative;
+	overflow: hidden;
+	padding: 3px 10px;
+    border-radius: 5px !important;
+	margin: 2px;    
+    color: #073c9c;
+    background-color: #B3E3ED;
+    border-color: #9cd4e0;    
+}
+.browse-btn> .btn.browse-preview-input:hover,
+.browse-btn> .btn.browse-preview-input:active{
+	color: #073c9c;
+    background-color: #B3E3ED;
+    border-color: #9cd4e0; 
+	outline: 0;
+}
+.browse-file-area input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 8px;
+	font-size: 15px;
+	cursor: pointer;
+	outline: 0;
+}
+.browse-preview-input-title {
+    margin-left:2px;
+}
+.browse-btn>.btn{
+	border: 0px;
+}
+.browse-btn> .btn>.search-img>img{
+	width:25px;
+}
+.browse-input:focus{
+	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6);
+     box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6); 
+}
+.border0{
+	border: 0px;
+}
+.upload-btn-space{
+	padding: 5px 0px;
+}
+/*Upload file Style End*/
+/*Cori Conversion page style End*/
+
+
+/*MediaQuery For desktop only Start*/
+@media only screen and (min-width: 992px) {
+.puck-div{
+	color: #fff;
+	background: #9FBBE2;
+	position: absolute;
+	top: -15px;
+	padding: 15px;
+ }
+}
+/*MediaQuery For desktop only Start*/
+/*MediaQuery For Tablate only Start*/
+@media (min-width: 768px) and (max-width: 992px) {
+	.sm-padding15{
+		padding: 15px;
+	}
+	.sm-margin-left15{
+		margin-left: 15px;
+	}
+	.sm-margin-bottom10{
+		margin-bottom: 10px;
+	}
+}
+/*MediaQuery For Tablate only End*/
+/*MediaQuery For Tablate and above Device Start*/
+@media only screen and (min-width: 768px) {
+	.change-sm-right{
+		padding-right: 0px;
+	}
+	.change-sm-left{
+		padding-left: 0px;
+	}
+	.timeline > li > .timeline-panel.padding-top10 {
+		padding-top: 10px;
+	}
+	.confirm-margin-right{
+		margin-right: 15px;
+	}
+}
+/*MediaQuery For Tablate and above Device End*/
+/*MediaQuery For Mobile Device Start*/
+@media only screen and (max-width: 767px) {
+	.cori-ver-top{
+		top: -8px;
+	}
+	.upload-btn-space {
+        padding: 0px 15px;
+	}
+}
+/*MediaQuery For Mobile Device End*/

@@ -1,0 +1,262 @@
+/*Usage Step1 Exceed Service Lines Style Start*/
+/*Step1 Header Style Start*/
+.txtbox-date{
+	position: relative;
+	top: -2px;
+}
+.txtbox-date input {
+    min-width: 160px;
+    width: 80%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    padding-right: 20px;
+    padding-left: 5px;
+    font-size: 12px;
+    border-bottom: solid 1px #666;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background-position: -1000px 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #000;
+}
+.date-time-icon {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.consumption-col-relative{
+	position: relative;
+	top: -8px;;
+}
+/*Step1 Header Style End*/
+/*Chart Panel Style Start*/
+.usage-center-body{
+		text-align: center;	
+	}
+.usage-info-title{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #010101;
+	padding-bottom: 10px;
+}
+.usage-info-btn{
+    position: absolute;
+    right: 10px;
+}
+.usage-chart-value{
+	font-family: GothamBook;
+	font-size: 20px;
+	color: #000000;
+	padding-top: 5px;
+}
+.usage-chart-sub-value{
+	font-family: GothamBook;
+	font-size: 15px;
+	color: #000000;
+}
+.usage-chart-sub-value-margin{
+	margin-bottom: 2.6em;
+}
+.usage-chart-bundle-incoming{
+	margin-bottom: 6.4em;
+}
+.usage-chart-exceeddata{
+	font-family: GothamBook;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #e45b5b;
+	margin-top: 10px;
+    margin-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.usage-chart-bundle{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #D9D9D9;
+    border-bottom-style: dotted;
+}
+.usage-chart-bundle span:first-child{
+	font-family: GothamBold;
+	font-size: 13px;
+	float: left;
+}
+.usage-chart-bundle span:last-child{
+	font-family: GothamBold;
+	font-size: 13px;
+	float: right;
+}
+.usage-chart-bundle-sub{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.usage-chart-bundle-sub span:first-child{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000;
+	float: left;
+}
+.usage-chart-bundle-sub span:last-child{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000;
+	float: right;
+}
+.chart-btn-right-arrow{
+	border: none;
+	border: solid 1px #003e92;
+	border-radius: 5px;
+    padding: 5px 10px;
+	font-size: 12px;
+	color: #003f92;
+}
+.chart-btn-right-arrow:hover{
+	color: #CAd1E2;
+	background-color: #F3F7F8;
+	border-color: #CAd1E2;
+}
+.chart-btn-right-arrow span{
+	top:3px;
+	color: #003f92;
+}
+.usage-chart-btn-div{
+	margin-top: 4em;
+}
+/*Chart Panel Style End*/
+/*Usage Step1 Consumption Style End*/
+/*Usage Step2 Exceed Service Lines Style Start*/
+/*Table Style Start*/
+.service-line-data{
+	margin-left: -30px;
+	margin-right: -15px;
+}
+.padding-left{
+	padding-left: 30px!important;
+}
+.tbl-data{
+	display: inline-block;
+	white-space: nowrap;
+}
+.tbl-data img{
+	vertical-align: top;
+}
+.tbl-data .tbl-data-title{
+	display: inline-block;
+	font-size: 13px;
+	padding-left: 10px;
+	color: #e55b5b;
+}
+.tbl-data-subtitle{
+	display: block;
+	font-size: 12px;
+	color: #666666;
+}
+.txt-red-font13{
+	font-size: 13px;
+	color: #e55b5b;
+}
+.margin-bottom5{
+		margin-bottom: 5px;
+}
+/*Table Style End*/
+/*Usage Step2 Exceed Service Lines Style End*/
+
+/*Usage Step3 Exceed Service Lines Style Start*/
+
+/*Usage Step3 Exceed Service Lines Style End*/
+
+/*CHECK USAGE consumer*/
+
+.usage-line-chart-data{
+	font-family: GothamBook;
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+    background-color: #ededed;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.usage-center-body .padding0{
+		padding: 0px;
+}
+
+/**/
+
+/*bill Monthly Subscription*/
+.bill-Subscription-sub{
+	padding-bottom: 25px;
+}
+.bill-Subscription-sub span:first-child{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000;
+	float: left;
+}
+.bill-Subscription-sub span:last-child{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000;
+	float: right;
+}
+.dotted-div-active{
+	background: #F3F7F8;
+}
+.width30{
+	width: 30px;
+}
+/**/
+
+
+/*Media For Tablate Device Start*/
+@media (min-width: 992px){
+	.usage-md-3 {
+		width: 20%;
+	}
+	.usage-md-9 {
+		width: 80%;
+	}
+}
+@media (max-width: 992px) and (min-width: 768px){
+	.sm-margin-bottom{
+		margin-bottom: 1em;
+	}
+}
+/*Media For Tablate Device End*/
+/*Media For Mobile Device Start*/
+@media only screen and (max-width: 767px) {
+	.txtbox-date input {
+		width:100%;
+	}
+	.xs-margin-left0{
+		margin-left: 0px;
+	}
+	.xs-align-left{
+		text-align: left;
+	}
+	
+	.text-bold{
+		font-weight: bold;
+	}
+	.xs-padding-top-bottom-10{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.service-line-data {
+    	margin-left: -15px;
+    	margin-right: -15px;
+	}
+	.service-line-data .service-data {
+    	border-top: 1px solid #ddd;
+    	border-bottom: 1px solid #ddd;
+	}
+	.carousel-indicators.padding-bottom20{
+		padding-bottom: 20px;
+	}
+}
+/*Media For Mobile Device End*/

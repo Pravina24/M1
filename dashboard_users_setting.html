@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dashboard BA</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/header-footer.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/vertical-menu.css">
+		<link rel="stylesheet" href="css/header-burger.css">
+		<link rel="stylesheet" href="css/dropdown.css">
+		<link rel="stylesheet" href="css/dashboard_BA.css">
+		<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	</head>
+	<body>
+		<div id="wrapper">
+		<!--Header Section Start-->
+		<header class="header-main">
+			<!-- Header Main Navigation Start -->
+			<div class="container-fluid header-main-link">
+				<div class="container header-container-mobile">
+				<div class="row">
+					<div class="col-md-5 col-sm-6 col-xs-6">
+						<ul class="">
+						  <li><a href="#" class="header-menu-active">Personal</a></li>
+						  <li><a href="#">Business</a></li>
+						</ul>
+					</div>
+					<div class="col-md-7 col-sm-6 col-xs-6">
+						<ul class="pull-right">
+						  <li><a href="#">About M1</a></li>
+				  		  <li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>		
+				</div>
+			</div>
+			<!-- Header Main Navigation End -->
+			<!-- Header Sub Navigation Start -->
+			  <div class="container-fluid header-main-logo">
+
+				<div class="container header-container-mobile">
+				<div class="row">
+				  <div class="col-md-5 col-sm-6 col-xs-5">
+					<ul class="">
+					  <li><a href="#" ><img src="img/M1_Logo.png" alt="Logo M1" class=""/></a></li>
+						<!--Header Burger menu-btn Start-->
+						<li class="position-relative"><a href="#" id="burger_menu" data-target="#myburger" class="burger-img icon-hover"><img src="img/buger.png" alt="burger" class="burger-toggle-img"/></a>					  </li>
+					  <!--Header Burger menu-btn End-->
+					</ul>
+
+				  </div>
+				  <div class="col-md-7 col-sm-6 col-xs-7">
+					<ul class="pull-right  dropdown">
+						<li><a href="#" class="icon-hover"><img src="img/search.png" alt="Search" class=""/></a></li>
+						<li class="position-relative notification"><a href="#" class="icon-hover dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/notification.png" alt="Notification" class=""/><span class="badge">5</span></a>
+							<ul class="dropdown-menu " aria-labelledby="dropdownMenu2">
+								<li class="notification-title"><span class="txt-font16 font-bold">Notification</span> <span class="pull-right badge notification-count">5</span></li>
+								<li class="with-bg">
+									<span class="status-img-holder"><img  src="img/notification/bell.png" alt="" /></span>
+									<span class="status-text">Bill Payment is Overdue
+										<span class="notify-date">24 March, 2017</span>
+									</span>
+								</li>
+									<li class="with-bg">
+									<span class="status-img-holder"><img  src="img/notification/changeAddress.png" alt="" /></span>
+									<span class="status-text">Change Address Done!
+										<span class="notify-date">24 March, 2017</span>
+									</span>
+								</li>
+								<li>
+									<span class="status-img-holder"><img  src="img/notification/promotion.png" alt="" /></span>
+									<span class="status-text">IPhone 7 Upgrade Plan
+										<span class="notify-date">24 March, 2017</span>
+									</span>
+								</li>
+									<li>
+									<span class="status-img-holder"><img  src="img/notification/changeAddress.png" alt="" /></span>
+									<span class="status-text">Change Address Done!
+										<span class="notify-date">24 March, 2017</span>
+									</span>
+								</li>
+									<li>
+									<span class="status-img-holder"><img  src="img/notification/bell.png" alt="" /></span>
+									<span class="status-text">Bill Payment is Overdue
+										<span class="notify-date">24 March, 2017</span>
+									</span>
+								</li>
+							  <li class="no-padding"><a href="#" class="pull-right">View All</a></li>
+							</ul>
+						</li>
+						<li class="position-relative settingMenu"><a href="#" class="icon-hover dropdown-toggle" id="settingMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/person.png" alt="Persion" class=""/></a>
+							<ul class="dropdown-menu " aria-labelledby="settingMenu">							
+								<li>
+									<span class="settingMenu-img-holder"><img  src="img/My_Account.png" alt="" /></span>
+									<span class="status-text">My Account</span>
+								</li>
+									<li>
+									<span class="settingMenu-img-holder"><img  src="img/Logout.png" alt="" /></span>
+									<span class="status-text">Logout</span>
+									</li>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				  </div>
+					
+				</div>
+				</div>
+				<div id="side-kick-nav" style="display: none;">
+				<div class="bottom-fill">
+					<div class="overlay"></div>
+				</div>
+				<div class="container side">
+					<div class="row">
+						<div class="col-md-12  col-sm-12">
+							<div class="side-fill" id="menu-item-height">
+								<div class="overlay"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container side-kick">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 level no-border">
+						<div class="overlay"></div>
+						  <!--Burger Menu Section Start-->
+			  <div id="myburger" class="burger-menu">
+				<ul>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/mobile.png" alt="Mobile">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Mobile</div>
+						<span>Phone &amp; Plans</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/tablets.png" alt="Tablets">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Tablets</div>
+						<span>&amp; Mobile Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/home.png" alt="Home">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Home</div>
+						<span>Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/roaming.png" alt="Roaming">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Roaming</div>
+						<span>&amp; International Calls</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyAccount.png" alt="Account">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>Account</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyM1app.png" alt="App">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>M1 App</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/others.png" alt="Other">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Others</div>
+						<span>Sevices</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			  <!--Burger Menu Section End-->
+					</div>
+				</div>
+				</div>  
+				</div>
+				</div>
+			  <!-- Header Sub Navigation End -->
+			
+		</header>
+		<!--Header Section End-->
+		
+		<!--Dashboard_BA Start-->
+		
+		<!--Dashboard_BA End-->
+		
+		<!--Footer Section Start-->
+		<footer>
+			<div class="footer hidden-xs">
+				<!--Footer Nav Section Start-->
+				<div class="container">
+				<div class="row align-center">
+					<div class="col-md-12 col-sm-12">
+						<ul>
+							<li><a href="#">FAQ</a><span class="footer-pipeline">|</span></li> 
+							<li><a href="#">Careers</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Terms</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Terms &amp; Conditions</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Data Protection Policy</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Map</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Copyright Act</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">M1 Shops</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Investors</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<!--Footer Nav Section End-->
+				
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 footer-copyright">
+						<hr>
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			</div>
+			<!--Footer For Mobile Device Start-->
+			<div class="footer-mob hidden-md hidden-sm hidden-lg">
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-xs-12">						
+						<ul>
+							<li><span class="footer-dropdown-span">Footer</span>
+								<a class="arrow-up-down footer-dropdown-arrow"><span  class="glyphicon glyphicon-menu-down pull" data-toggle="collapse" data-target="#footer-mob"></span></a>
+							</li> 				
+						</ul>
+					</div>
+					<div class="col-xs-12 collapse" id="footer-mob">
+						<ul>
+							<li><a href="#">FAQ</a></li> 
+							<li><a href="#">Careers</a></li>	
+							<li><a href="#">Site Terms</a></li>
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Data Protection Policy</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Copyright Act</a></li>
+							<li><a href="#">M1 Shops</a></li>
+							<li><a href="#">Investors</a></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 footer-mob-copyright">
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			<!--Footer For Mobile Device End-->
+		</footer>
+		<!--Footer Section End-->
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="scripts/header-footer.js"></script>
+		<script src="scripts/vertical-menu.js"></script>
+		<script src="scripts/header-burger.js"></script>
+		<script src="scripts/dropdown.js"></script>
+		<script src="scripts/carousel_slide.js" type="text/javascript"></script>
+	</body>
+</html>

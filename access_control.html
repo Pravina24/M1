@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Access Control</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
+	<link rel="stylesheet" href="css/header-footer.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header-burger.css">
+	<link rel="stylesheet" href="css/vertical-menu.css">
+	<link rel="stylesheet" href="css/dropdown.css">
+	<link rel="stylesheet" href="css/panel_table_components.css">
+	<link rel="stylesheet" href="css/usermanagement.css">
+	<link rel="stylesheet" href="css/step_wizard.css">
+	<link rel="stylesheet" href="css/access_control.css">
+	
+</head>
+
+<body>
+	<div id="wrapper">
+	<!--Header Section Start-->
+		<header class="header-main">
+			<!-- Header Main Navigation Start -->
+			<div class="container-fluid header-main-link">
+				<div class="container header-container-mobile">
+				<div class="row">
+					<div class="col-md-5 col-sm-6 col-xs-6">
+						<ul class="">
+						  <li><a href="#" class="header-menu-active">Personal</a></li>
+						  <li><a href="#">Business</a></li>
+						</ul>
+					</div>
+					<div class="col-md-7 col-sm-6 col-xs-6">
+						<ul class="pull-right">
+						  <li><a href="#">About M1</a></li>
+				  		  <li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>		
+				</div>
+			</div>
+			<!-- Header Main Navigation End -->
+			<!-- Header Sub Navigation Start -->
+			  <div class="container-fluid header-main-logo">
+
+				<div class="container header-container-mobile">
+				<div class="row">
+				  <div class="col-md-5 col-sm-6 col-xs-5">
+					<ul class="">
+					  <li><a href="#" ><img src="img/M1_Logo.png" alt="Logo M1" class=""/></a></li>
+						<!--Header Burger menu-btn Start-->
+						<li class="position-relative"><a href="#" id="burger_menu" data-target="#myburger" class="burger-img icon-hover"><img src="img/buger.png" alt="burger" class="burger-toggle-img"/></a>
+
+
+					  </li>
+					  <!--Header Burger menu-btn End-->
+					</ul>
+
+				  </div>
+				  <div class="col-md-7 col-sm-6 col-xs-7">
+					<ul class="pull-right">
+						<li><a href="#" class="icon-hover"><img src="img/search.png" alt="Search" class=""/></a></li>
+						<li><a href="#" class="icon-hover"><span><img src="img/notification.png" alt="Notification" class=""/></span><span class="badge">5</span></a></li>
+						<li><a href="#" class="icon-hover"><img src="img/person.png" alt="Persion" class=""/></a></li>
+					</ul>
+				  </div>
+				</div>
+				</div>
+				<div id="side-kick-nav" style="display: none;">
+				<div class="bottom-fill">
+					<div class="overlay"></div>
+				</div>
+				<div class="container side">
+					<div class="row">
+						<div class="col-md-12  col-sm-12">
+							<div class="side-fill" id="menu-item-height">
+								<div class="overlay"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container side-kick">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 level no-border">
+						<div class="overlay"></div>
+						  <!--Burger Menu Section Start-->
+			  <div id="myburger" class="burger-menu">
+				<ul>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/mobile.png" alt="Mobile">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Mobile</div>
+						<span>Phone &amp; Plans</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/tablets.png" alt="Tablets">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Tablets</div>
+						<span>&amp; Mobile Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/home.png" alt="Home">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Home</div>
+						<span>Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/roaming.png" alt="Roaming">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Roaming</div>
+						<span>&amp; International Calls</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyAccount.png" alt="Account">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>Account</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyM1app.png" alt="App">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>M1 App</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/others.png" alt="Other">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Others</div>
+						<span>Sevices</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			  <!--Burger Menu Section End-->
+					</div>
+				</div>
+				</div>  
+				</div>
+				</div>
+			  <!-- Header Sub Navigation End -->
+			
+		</header>
+		<!--Header Section End-->
+   
+	<!--Main Section Start-->
+	
+	<div class="container content-section">
+		
+		<div class="row">
+			<!-- Left Submenu Section Start -->
+				<div class="col-md-2 col-sm-2 leftmenu-body-main">
+					<div class="leftmenu-button"><img src="img/MobileBurger.png"/>
+					<img src="img/close.png"/ style="display:none"></div>
+					<nav class="left-main-menu">
+						<ul class="main-menu">
+							<li>
+								<a class="menu-active" href="#"><span class="left-menu-img left-menu-dashboard"></span><span class="left-main-menu-title">Dashboard</span></a> 
+							</li>
+							<li>
+								<a href="#" data-toggle="collapse" data-target="#sub-menu1"><span class="left-menu-img left-menu-profile"></span> <span class="left-main-menu-title">Profile &#38; Account</span></a> 
+								<ul id="sub-menu1" class="sub-menu collapse">
+									<li>
+										<a href="#"><span>Manage Access</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Profile Update</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Transaction History</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Contract Retrival</span></a> 
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-billing"></span><span class="left-main-menu-title">Billing &#38; Usage</span></a> 
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-services"></span><span class="left-main-menu-title">Services</span></a> 
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-promotions"></span><span class="left-main-menu-title">Promotions</span></a> 
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+			<!-- Left Submenu Section End -->
+			<!--Container Section Start-->
+			<div class="col-md-10 col-sm-10 col-xs-12">
+				<div class="row margin-bottom30">
+                <!--Page Header Title Section start -->
+					<div class="col-md-12">
+						<!--Page Main Header Title Start-->
+						<div class="main-header-title"><span>Module Access Control</span></div>
+						<!--Page Main Header Title End-->
+
+					<!--Page Header ID & Dropdown Section Start-->
+					  <div class="row">
+						  <!--AO Id Section Start-->
+						<div class="col-md-4 col-sm-4 col-xs-12 margin-bottom-2x-mob">
+							<div class="lbl-Aoid">
+								<label  class="lbl-header-title lbl-header-Aoid">AO ID</label>
+								<label  class="lbl-header-body">pix_prod@ml.com.sg</label>
+							</div>
+						</div>
+						   <!--AO Id Section End-->
+						  <!--Dropdwn Section Start-->
+						<div class="col-md-4 col-sm-4 col-xs-12 margin-bottom-2x-mob">
+							<label  class="lbl-header-title">Select Billing Account</label>
+							<a class="btn btn-select">
+								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+								<span class="btn-select-value">Select an Item</span>
+								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+								<ul>
+									<li class="selected">Option 1</li>
+									<li >Option 2</li>
+									<li>Option 3</li>
+									<li>Option 4</li>
+								</ul>
+							</a>
+						</div>
+						  <!--Dropdwn Section End-->							  
+						  <!--Dropdwn Section Start-->
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<label  class="lbl-header-title">Select Service Line</label>
+							<a class="btn btn-select">
+								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+								<span class="btn-select-value">Select an Item</span>
+								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+								<ul>
+									<li>Option 1</li>
+									<li class="selected">Option 2</li>
+									<li>Option 3</li>
+									<li>Option 4</li>
+								</ul>
+							</a>
+						</div>
+						  <!--Dropdwn Section End-->							
+					  </div>
+					<!--Page Header ID & Dropdown Section End-->
+					</div>
+				<!--Page Header Title Section End -->
+				</div>
+				<div class="row margin-bottom30">
+					<div class=" col-md-12 col-sm-12 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-body padding-left-right0">
+								<!--Tab Section Start-->
+								<ul class="nav nav-tab nav-pills">
+									<li class="active padding-left15 xs-padding-left0"><a data-toggle="tab" href="#viewList" class="nav-bottom-boder hover-style difult-style">View List</a></li>
+									<li><a data-toggle="tab" href="#manageAccess" class="nav-bottom-boder hover-style difult-style">Manage Access</a></li>
+								</ul>
+								<!-- Tab Section end -->
+
+								<div class="tab-content">
+									<!--List View Section Start-->
+									<div id="viewList" class="list-tab tab-pane fade in active">
+										<div class="row row-padding margin-bottom10">
+											<span class="col-md-6 col-sm-6 col-xs-12 list-table-heading">
+													Total Service Line - 90
+											</span>
+											<span class="col-md-6 col-sm-6 col-xs-12 text-align-right search-filter">
+											<div class="input-group search-group">
+                                    		<input type="text" class="search-query form-control" placeholder="Serach Keyword" />
+                                  
+												<button class="btn btn-search search-btn" type="button">
+												  <img src="img/search.png" alt="search" />
+												</button>
+                                
+												<button type="button" class="btn btn-filter search-btn" data-toggle="dropdown">
+													<img src="./img/filter.png" alt="" class="cursor-pointer filter-btn" />
+											  	</button>
+                          
+												<!-- Modal -->
+											  <div class="dropdown-menu dropdown dropdown-box">
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />Pay Bill
+												</div>
+
+												<div class="button-checkbox module-sec col-xs-6 col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />View Usage
+												</div>
+
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />VASes Activation
+												</div>
+
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />VASes Deactivation
+												</div>
+
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />Usage Report
+												</div>
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />Transaction History
+												</div>
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />View Sunriser Status
+												</div>
+												<div class="button-checkbox module-sec col-xs-6  col-sm-6">
+												  <button type="button" class="no-background"></button>
+												  <input type="checkbox" class="hidden" checked />Loyalty Voucher
+												</div>
+												<hr class="margin-bottom10">
+												 <span class="date-label font-bold">Last Updated Date </span> 
+												 <div class="input-append date date-holder display-inlineBlock margin-bottom-1x-mob modal-txtbox-date xs-block" id="dp1" data-date="19/05/2017" data-date-format="dd/mm/yyyy">
+														<input class="span2" size="16" type="text" value="19/05/2017" readonly>
+														<span class="add-on date-time-icon"><img src="img/calender.png" alt=""></span>
+												  </div>
+												  <hr/>
+												  <div class="date-label font-bold col-xs-4 xs-padding-right0"><a href="#">Clear All Filter </a> </div>
+												  <div class="display-inline-block text-align-right col-xs-8 padding0">
+												   <button class="btn white-sm-btn">Cancel</button><button class="btn blue-sm-btn margin-left30 xs-margin-left15">Apply</button>
+												</div>
+											  </div>  
+                      
+                          						<!-- Model End -->
+                                  				</div>
+												</span>
+											</div>
+										<div class="table-responsive hidden-xs">
+											<table class="table">
+												<thead>
+													<tr>
+														<th class="padding-left">Service Number</th>
+														<th>User Name</th>
+														<th>Last Updated</th>
+														<th>Available Modules</th>
+														<th>Status</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th class="padding-left">85968581</th>
+														<td class="align-middle">user 1</td>
+														<td>12 june 2016</td>
+														<td>
+															<span class="module-circle"><img src="img/modules/paybill.png" alt="Pay Bill"  /></span>
+															<span class="module-circle"><img src="img/modules/vas-active.png" alt="VASes Activation"  /></span>
+															<span class="module-circle"><img src="img/modules/usage_report.png" alt="Usage Report"  /></span>
+															<span class="module-circle"><img src="img/modules/viewusage.png" alt="View USage"  /></span>
+														</td>
+														<td>Active</td>
+													</tr>
+													<tr>
+														<th class="padding-left">85968581</th>
+														<td>user 1</td>
+														<td>12 june 2016</td>
+														<td>
+															<span class="module-circle"><img src="img/modules/vas-active.png" alt="VASes Activation" /></span>
+
+														</td>
+														<td>Active</td>
+													</tr>
+													<tr>
+														<th class="padding-left">85968581</th>
+														<td>user 1</td>
+														<td>12 june 2016</td>
+														<td>
+															<span class="module-circle"><img src="img/modules/paybill.png" alt="Pay Bill"  /></span>
+															<span class="module-circle"><img src="img/modules/vas-active.png" alt="VASes Activation" /></span>
+															<span class="module-circle"><img src="img/modules/usage_report.png" alt="Usage Report"  /></span>
+															<span class="module-circle"><img src="img/modules/viewusage.png" alt="View USage"  /></span>
+															<span class="module-circle"><img src="img/modules/trans_history.png" alt="Transaction History"  /></span>
+
+														</td>
+														<td>Active</td>
+													</tr>
+													<tr class="suspended">
+														<th class="padding-left">85968581</th>
+														<td>user 1</td>
+														<td>12 june 2016</td>
+														<td>
+															<span class="module-circle"><img src="img/modules/paybill.png" alt="Pay Bill"  /></span>
+															<span class="module-circle"><img src="img/modules/vas-active.png" alt="VASes Activation"  /></span>
+															<span class="module-circle"><img src="img/modules/usage_report.png" alt="Usage Report"  /></span>
+															<span class="module-circle"><img src="img/modules/viewusage.png" alt="View USage"  /></span>
+														</td>
+														<td>Suspended</td>
+													</tr>
+													<tr>
+														<th class="padding-left">85968581</th>
+														<td>user 1</td>
+														<td>12 june 2016</td>
+														<td>
+															<span class="module-circle"><img src="img/modules/usage_report.png" alt="Usage Report"  /></span>
+
+														</td>
+														<td>Active</td>
+													</tr>
+													<tr>
+														<th class="padding-left">85968581</th>
+														<td>user 1</td>
+														<td>12 june 2016</td>
+														<td>
+															<span class="module-circle"><img src="img/modules/vas-active.png" alt="VASes Activation"  /></span>
+															<span class="module-circle"><img src="img/modules/usage_report.png" alt="Usage Report" /></span>
+															<span class="module-circle"><img src="img/modules/viewusage.png" alt="View USage"  /></span>
+															<span class="module-circle"><img src="img/modules/trans_history.png" alt="Transaction History" /></span>
+
+														</td>
+														<td>Active</td>
+													</tr>
+												</tbody>
+											</table>
+											<div class="pull-right">
+												<ul class="pagination">
+													<li><a href="#"><img src="img/backword.png" alt="" /></a></li>
+													<li><a href="#">1</a></li>
+													<li><a href="#">2</a></li>
+													<li><a href="#">3</a></li>
+
+													<li><a href="#"><img src="img/forward.png" alt="" /></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="panel panel-default hidden-md hidden-sm hidden-lg xs-margin-left-right15">
+											<!-- Mobile view Data Needs to repeat -->
+											<div class="panel-body">
+												<div class="row padding-top-bottom-10">
+													<span class="col-xs-6 text-bold">Service Number</span>
+													<span class="col-xs-6 text-bold xs-align-right">85968581</span>
+												</div>
+												<hr/>
+												<div class="row padding-top-bottom-10">
+													<span class="col-xs-6 text-bold">User Name</span>
+													<span class="col-xs-6 xs-align-right">user 1</span>
+												</div>
+												<hr/>
+												<div class="row padding-top-bottom-10">
+													<span class="col-xs-6 text-bold">Last Updated</span>
+													<span class="col-xs-6 xs-align-right">12 june 2016</span>
+												</div>
+												<hr/>
+												<div class="row padding-top-bottom-10">
+													<span class="col-xs-12 text-bold">Available Modules</span>
+													<span class="col-xs-12 padding-top-10">
+															<span class="module-circle"><img src="img/modules/vas-active.png" alt="VASes Activation"  /></span>
+													<span class="module-circle"><img src="img/modules/usage_report.png" alt="Usage Report"  /></span>
+													<span class="module-circle"><img src="img/modules/viewusage.png" alt="View USage"  /></span>
+													<span class="module-circle"><img src="img/modules/trans_history.png" alt="Transaction History" /></span>
+													</span>
+												</div>
+												<hr/>
+												<div class="row padding-top-bottom-10">
+													<span class="col-xs-6 text-bold">Status</span>
+													<span class="col-xs-6 xs-align-right">Active</span>
+												</div>
+											</div>
+											<!-- Mobile View Data end -->
+										</div>
+									</div>
+									<!--List View Section End-->
+								<!--Manage Access Section Start-->
+									<div id="manageAccess" class="tab-pane fade">
+										<div class="row step-row-padding">
+										<div class="wizard">
+											<div class="wizard-inner">
+												<div class="connecting-line"></div>
+												<ul class="nav nav-tabs" role="tablist" style="height:88px">
+
+													<li role="presentation" class="active first-last">
+														<a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Select Function">
+															<span class="round-tab">1</span>
+														</a>
+														<div class="step-text">Select Function</div>
+														<span class="step-complete"><img src="img/Tick_suc.png" width="30" alt="complete" /></span>
+													</li>
+
+													<li role="presentation" class="disabled middle">
+														<a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Select Service Line">
+															<span class="round-tab">2</span>
+														</a>
+														<div class="step-text">Select Service Line</div>
+														<span class="step-complete"><img src="img/Tick_suc.png" width="30" alt="complete" /></span>
+													</li>
+
+
+													<li role="presentation" class="disabled first-last">
+														<a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Save &amp; Finish">
+															<span class="round-tab">3</span>
+														</a>
+														<span class="step-text">Save &amp; Finish</span>
+													</li>
+												</ul>
+											</div>
+											<div class="col-xs-12 hidden-lg hidden-md hidden-sm xs-step-heading" id="stepTxt">Select Function</div>
+											<form role="form" class="xs-clear-both">
+												<div class="tab-content">
+													<!-- Step 1 start here -->
+													<div class="tab-pane active panel-noradius " role="tabpanel" id="step1">
+
+														<div class="panel panel-default margin-left-right5perc">
+															<!-- Radio and checkbox button -->
+															<div class="panel-heading">
+																<div data-toggle="buttons" class="btn-group btn-group-justified fancy-radio-group margin-left-minus30 xs-margin-minus5">
+																	<label class="btn btn-fancy-radio text-xs text-no-transform clearfix"> <img src="img/tick1_1.png" class="normal"/> <img src="img/tick1_2.png" class="checked" /> Assign Access
+																		<input type="radio" class="hidden" name="options">
+																	</label>
+																	<label class="btn btn-fancy-radio text-xs text-no-transform clearfix"> <img src="img/tick1_1.png" class="normal"/> <img src="img/tick1_2.png" class="checked" /> Revoke Access
+																	<input type="radio" class="hidden" name="options">
+																	</label>
+																</div>
+																<div class="check-box">
+																	<span class="button-checkbox">
+																		<button type="button" class="no-background"></button>
+																		<input type="checkbox" class="hidden" checked />Select All
+																	</span>
+																</div>
+															</div>
+															<!-- Radio and checkbox end here -->
+															<!-- Access option -->
+															<div class="panel-body">
+																<!-- Desktop View -->
+																<ul class="access-option hidden-xs">
+																	<li class="col-md-2 col-sm-3">
+																		<div class="image-holder">
+																			<img src="img/modules/paybill.png" alt="pay bill" />
+																		</div> 
+																		<div>Pay Bill</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="paybill" class="hidden" checked />
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3">
+																		<div class="image-holder">
+																			<img src="img/modules/viewusage.png" alt="View Usage" />
+																		</div>
+																		<div>View Usage</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="viewusage" class="hidden"  />
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3">
+																		<div class="image-holder">
+																			<img src="img/modules/vas-active.png" alt="VASes Activation" />
+																		</div>
+																		<div>VASes Activation</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="vasesactivation" class="hidden"  />
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3 last-sm-child">
+																		<div class="image-holder">
+																			<img src="img/modules/vas_deactive.png" alt="VASes Deactivation" />
+																		</div>		
+																		<div>VASes Deactivation</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="vasesdeactivation" class="hidden"  />
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3">
+																		<div class="image-holder">
+																			<img src="img/modules/usage_report.png" alt="Usage Report" />
+																		</div>
+																		<div>Usage Report</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="usagereport" class="hidden"  />
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3 last-md-child">
+																		<div class="image-holder"><img src="img/modules/trans_history.png" alt="Transaction History" />
+																		</div>
+																		<div>Transaction History</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="transactionhistory" class="hidden"/>
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3">
+																		<div class="image-holder">
+																			<img src="img/modules/sunrise_point.png" alt="View Sunriser Status" />
+																		</div>		
+																		<div>View Sunriser Status</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="viewsunriserstatus" class="hidden"  />
+																			</span>
+																		</div>
+																	</li>
+																	<li class="col-md-2 col-sm-3 last-md-child last-sm-child">
+																		<div class="image-holder"><img src="img/modules/loyalty.png" alt="Loyalty Voucher" /></div>
+																		<div>Loyalty Voucher</div>
+																		<div class="align-center">
+																			<span class="button-checkbox">
+																				<button type="button" class="no-background"></button>
+																				<input type="checkbox" value="loyalityvoucher" class="hidden"  />
+																			</span>
+																		</div>
+																	</li>
+																</ul>
+																<!-- Desktop View End -->
+																<!-- Mobile View -->
+																<ul class="access-option hidden-md hidden-sm hidden-lg">
+																	<li class="col-xs-12">
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="paybill" class="hidden" checked /> Pay Bill
+							</span>
+																	</li>
+																	<li class="col-xs-12">
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="viewusage" class="hidden"  /> View Usages
+							</span>
+																	</li>
+																	<li class="col-xs-12">
+
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="vasesactivation" class="hidden"  />VASes Activation
+							</span>
+																	</li>
+																	<li class="col-xs-12">
+
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="vasesdeactivation" class="hidden"  />VASes Deactivation
+							</span>
+																	</li>
+																	<li class="col-xs-12">
+
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="usagereport" class="hidden"  />Usage Report
+							</span>
+																	</li>
+																	<li class="col-xs-12">
+
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="transactionhistory" class="hidden"  />Transaction History
+							</span>
+																	</li>
+																	<li class="col-xs-12">
+
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="viewsunriserstatus" class="hidden"  />View Sunriser Status
+								</span>
+																	</li>
+																	<li class="col-xs-12">
+
+																		<span class="button-checkbox">
+								<button type="button" class="no-background"></button>
+								<input type="checkbox" value="loyalityvoucher" class="hidden"  />Loyalty Voucher
+								</span>
+																	</li>
+																</ul>
+																<!-- mobile view end here -->
+															</div>
+															<!-- Access option End here -->
+															<button type="button" class="btn btn-default btn-xs btn-xs-block blue-sm-btn pull-right margin-top40 next-step">Next</button>
+														</div>
+
+													</div>
+													<!-- Step 2 start here-->
+													<div class="tab-pane panel-noradius" role="tabpanel" id="step2">
+														<div class="panel panel-default  margin-left-right5perc">
+															<div class="panel-heading  panel-header-bgcolor">
+																<div class="col-md-3 col-sm-12 col-xs-12 padding-right0 xs-padding-left0"><span class="assign-access">Assign Access</span><span class="arrow-right hidden-xs hidden-sm"></span></div>
+																<div class="col-md-9 col-sm-12 col-xs-12 padding-left0 margin-minus40">
+																	<span class="access-type-text">4 VaSES Selected</span>
+
+																	<span class="selected-access">Upsized Data Plus
+									<img src="img/Off_Btn.png" class="remove-button" alt="" width="12" />
+								</span>
+
+																	<span class="selected-access">Entertainment Data
+									<img src="img/Off_Btn.png" class="remove-button" alt="" width="12" />
+								</span>
+																</div>
+															</div>
+															<div class="panel-body">
+																<!--file upload section -->
+																<div class="col-md-4 col-sm-6 col-xs-12">
+																	<div class="file-upload">
+																		<div class="upload-file-area">
+																		<div class="file-upload-txt">
+																		   Upload your template for bulk access control
+																	    </div>
+																		<div>
+																			<img src="img/access_control/upload_icon.png" alt="upload" class="upload-img-placeholder" />
+																		</div>
+																			<span class="drag-drop-txt">
+																			  <b> Drag &amp; drop</b> files here
+																				<span class="display-inlineBlock">or <a href=#><b>browse</b></a> to begin upload</span>
+																		   </span>
+																		</div>
+																		<div>
+																			<img src="img/Tick_suc.png" alt="success" />
+																		</div>
+																		<span class="upload-success-message">
+																			File Upload Success!
+																		</span>
+																		<hr class="break" />
+																		<ul class="upload-statistic">
+																			<li>
+																				<div class="number">40</div>
+																				<div>Total Record</div>
+																			</li>
+																			<li>
+																				<div class="number">40</div>
+																				<div>success</div>
+																			</li>
+																			<li>
+																				<div class="number">00</div>
+																				<div>Fail</div>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<!--file upload section end here-->
+																<div class="col-md-8 col-sm-6 col-xs-12 border-left">
+																	<div class="input-group col-md-12 col-xs-12 search-group xs-seperator margin-bottom20">
+																		<input type="text" class="search-query form-control" placeholder="Serach by service line" />
+																		<span class="input-group-btn btn-holder">
+                                    <button class="btn search-btn" type="button">
+                                        <img src="img/search.png" alt="search" width="24" />
+                                    </button>
+                                </span>
+																	</div>
+																	<div class="clearfix"></div>
+																	<div class="table-responsive">
+																		<table class="table">
+																			<thead>
+																				<tr>
+																					<th class="td-width5per">
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="selectall" class="hidden"  />
+																</span>
+																					</th>
+																					<th class="width30percentage">Service Number</th>
+																					<th>User Name</th>
+
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="1" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																				<tr>
+																					<th>
+																						<span class="button-checkbox chkbox-relative">
+																	<button type="button" class="no-background"></button>
+																	<input type="checkbox" value="2" class="hidden"  />
+																</span>
+																					</th>
+																					<td class="align-middle text-bold">85968581</td>
+																					<td>user 1</td>
+
+																				</tr>
+																			</tbody>
+																		</table>
+
+																	</div>
+																</div>
+
+															</div>
+															<div class="pull-right">
+																<ul class="pagination">
+																	<li><a href="#"><img src="img/backword.png" alt="" /></a></li>
+																	<li><a href="#">1</a></li>
+																	<li><a href="#">2</a></li>
+																	<li><a href="#">3</a></li>
+
+																	<li><a href="#"><img src="img/forward.png" alt="" /></a></li>
+																</ul>
+															</div>
+															<div class="col-md-12 col-sm-12 col-xs-12 padding-right0">
+																<button type="button" class="btn btn-default btn-xs blue-sm-btn pull-right btn-xs-block next-step">Next</button>
+															</div>
+
+														</div>
+
+													</div>
+													<!--Step 2 end here -->
+													<!--Step 3 starts here -->
+													<div class="tab-pane panel-noradius " role="tabpanel" id="step3">
+														<div class="panel panel-default  margin-left-right5perc">
+															<div class="panel-body padding15">
+																<!-- vases access-->
+																<span class="desc-text">Verify below list and complete your activity</span>
+																<div class="panel panel-default">
+																	<div class="panel-heading active-heading">
+																		<div class="display-inlineBlock xs-txt-font12">
+																			<b>4 VaSES Selected</b>
+																		</div>
+																		<div class="display-inlineBlock pull-right xs320-no-float">
+																			<a class="plus-minus"><span data-target="#vases">view less</span></a>
+																		</div>
+																	</div>
+																	<div id="vases" class="panel-body xs-panel-body">
+																		<span class="selected-access margin-left0">Upsized Data Plus
+									<img src="img/Off_Btn.png" class="remove-button" alt="" width="12" />
+								</span>
+
+																		<span class="selected-access">Entertainment Data
+									<img src="img/Off_Btn.png" class="remove-button" alt="" width="12" />
+								</span>
+																	</div>
+																</div>
+																<!-- vases access end -->
+															 <!-- service line selected -->
+																<div class="panel panel-default">
+																	<div class="panel-heading ">
+																		<div class="display-inlineBlock xs-txt-font12">
+																			<b>20 Service Line Selected</b>
+																		</div>
+																		<div class="display-inlineBlock pull-right xs320-no-float">
+																		<a class="plus-minus"><span  data-target="#serviceline">view more</span></a>
+																		</div>
+																	</div>
+																	<div id="serviceline" class="panel-body xs-panel-body collapse" >
+																		<span class="selected-access margin-left0">Upsized Data Plus
+									<img src="img/Off_Btn.png" class="remove-button" alt="" width="12" />
+								</span>
+
+																		<span class="selected-access">Entertainment Data
+									<img src="img/Off_Btn.png" class="remove-button" alt="" width="12" />
+								</span>
+																	</div>
+																</div>
+																<!-- Service line end -->
+															</div>
+														</div>
+														<div class="row padding15 panel-margin-left-right0">
+															<div class="col-md-6 col-sm-8 col-xs-12">
+																<img src="img/Tick_suc.png" alt="successfully-uploaded-file" />
+																<b>User access has been completed successfully!</b>
+																<ul class="upload-statistic margin-top10">
+																			<li>
+																				<div class="number">40</div>
+																				<div>Total Record</div>
+																			</li>
+																			<li>
+																				<div class="number">40</div>
+																				<div>success</div>
+																			</li>
+																			<li>
+																				<div class="number">00</div>
+																				<div>Fail</div>
+																			</li>
+																		</ul>
+															</div>
+															<div class="col-md-6 col-sm-4 col-xs-12">
+																<button type="button" class="btn btn-default btn-xs btn-xs-block blue-sm-btn pull-right margin-top20">Assign Access</button>
+															</div>		
+														</div>	
+													</div>
+													<!--Step 3 ends here -->
+													<div class="clearfix"></div>
+												</div>
+											</form>
+										</div>
+										</div>
+									</div>
+									<!--Manage 	Access End Here-->
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<!--- Placeholder of Page Content End -->
+			<!--Container Section End-->
+	</div>
+	<!--Main Section End-->
+   </div>
+	</div>
+   <!--Footer Section Start-->
+		<footer>
+			<div class="footer hidden-xs">
+				<!--Footer Nav Section Start-->
+				<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<ul>
+							<li><a href="#">FAQ</a><span class="footer-pipeline">|</span></li> 
+							<li><a href="#">Careers</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Terms</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Terms &amp; Conditions</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Data Protection Policy</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Map</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Copyright Act</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">M1 Shops</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Investors</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<!--Footer Nav Section End-->
+				
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 footer-copyright">
+						<hr>
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			</div>
+			<!--Footer For Mobile Device Start-->
+			<div class="footer-mob hidden-md hidden-sm hidden-lg">
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-xs-12">						
+						<ul>
+							<li><span class="footer-dropdown-span">Footer</span>
+								<a class="arrow-up-down footer-dropdown-arrow"><span  class="glyphicon glyphicon-menu-down pull" data-toggle="collapse" data-target="#footer-mob"></span></a>
+							</li> 				
+						</ul>
+					</div>
+					<div class="col-xs-12 collapse" id="footer-mob">
+						<ul>
+							<li><a href="#">FAQ</a></li> 
+							<li><a href="#">Careers</a></li>	
+							<li><a href="#">Site Terms</a></li>
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Data Protection Policy</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Copyright Act</a></li>
+							<li><a href="#">M1 Shops</a></li>
+							<li><a href="#">Investors</a></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 footer-mob-copyright">
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			<!--Footer For Mobile Device End-->
+		</footer>
+		<!--Footer Section End-->
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/bootstrap-datetimepicker.js"></script>
+	<script src="scripts/header-footer.js"></script>
+	<script src="scripts/header-burger.js"></script>
+	<script src="scripts/vertical-menu.js"></script>	
+	<script src="scripts/dropdown.js"></script>
+	<script src="scripts/step-wizard.js"></script>
+	<script>
+	  $(function(){
+			$('#dp1').datepicker({
+			format: 'dd/mm/yyyy'
+		  });
+	  });
+  </script>
+	</div>
+</body>
+
+</html>

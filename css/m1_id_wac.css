@@ -1,0 +1,503 @@
+Landing Screen_M1 ID_WAC Style Start*/
+.ls-id-wac-title{
+	font-family: GothamBook;
+	font-size: 19px;
+	color: #000000;
+}
+.ls-id-wac-body{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #010101;
+	min-height: 60px;
+	padding-top:5px;
+}
+/*Landing Screen_M1 ID_WAC Style End*/
+
+/*Landing Screen_M1 ID Style Start*/
+/*Bonus Voucher Section and bank card sectionstart*/
+.ls-id-bank-card-div{
+	text-align: right;
+	padding-top: 15px;
+	
+}
+.ls-id-bank-card-div>span{
+	font-family: GothamBook;
+	font-size: 12px;
+	color: #000000;
+}
+.ls-id-bonus-panel-default{
+	border:  solid 1px rgba(229, 110, 31, 0.78);
+}
+.ls-id-bonus-panel{
+	padding-top: 8px;
+	padding-bottom: 7px;
+}
+.ls-id-bonus-header-title{
+	font-family: GothamBook;
+	font-size: 12px;
+	color: #000000;
+}
+.ls-id-bonus-value{
+	font-family: GothamBold;
+	font-size: 15px;
+	color: #000000;
+}
+/*Bonus Voucher Section and bank card section End*/
+/*Total panel section start*/
+.ls-id-centeralign{
+	text-align: center;
+}
+.ls-id-total-title{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000000;
+}
+.ls-id-bill-value{
+	font-family: GothamBook;
+	font-size: 29px;
+	color: #e56e1f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*Total panel section End*/
+/*Blue Panel Section start*/
+.ls-id-blue-panel{
+	background-color: #003F92;
+	border-radius: 10px;
+}
+.ls-id-blue-data-div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.ls-id-blue-data-title{
+	font-family: GothamBook;
+	font-size: 25px;
+	color: #FFF;
+}
+.ls-id-blue-charge{
+	display: inline-block;
+	padding-top: 10px;
+	text-decoration: none;
+}
+.ls-id-blue-charge a{
+	color: #fff;
+
+}
+.ls-id-blue-charge a:hover,.ls-id-blue-charge a:focus,.ls-id-blue-charge a:active{
+	color: #fff;
+	text-decoration: none;
+}
+.ls-id-blue-panel-hr{
+	border-top: 1px solid #E56E1F;
+	width: 100%;
+}
+/*Blue Panel Section End*/
+/*Account Slide panel section Start*/
+.ls-id-m1-panellist>.panel{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border-bottom: 0px;
+}
+.ls-id-m1-panellist .panel:first-child{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.ls-id-m1-panellist>.panel:last-child{
+	margin-bottom: 20px;
+	border-bottom: 1px solid transparent;
+	border-bottom-color: #ddd;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.ls-id-m1-panellist>.panel>.panel-heading{
+	background-color: #FAFAFA;
+}
+.panel-heading-color{
+	background-color: #FAFAFA;
+}
+.ls-active-header{
+	background-color: #E9E9E9 !important;
+}
+.lr-radus0{
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.ls-id-account-head-title{
+	font-family: GothamBook;
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 17px;
+	color: #000000;
+}	
+.ls-id-account-value{
+	font-family: GothamBook;
+	display: inline-block;
+	font-size: 16px;
+	color: #6b6b6b;
+}
+.ls-id-account-body-title{
+	font-family: GothamBook;
+	font-size: 11px;
+	color: #6b6b6b;
+}
+.ls-id-account-body-value{
+	font-family: GothamBook;
+	font-size: 20px;
+	color: #000000;
+}
+.ls-id-account-body-value img{
+	/*margin-left: 20px;*/
+	float: right;
+    padding-top: 5px;
+}
+.ls-id-account-left-border{
+	border-left: 1px solid #e56e1f;
+}
+
+/*Account Slide panel section End*/
+/*Landing Screen_M1 ID Style End*/
+/*Landing Screen_M1 ID_SL_Fixed start*/
+.ls-id-SL-fixed-title {
+    font-family: GothamBook;
+    font-size: 29px;
+    color: #e56e1f;
+}
+.ls-id-SL-fixed-font13 {
+  font-family: GothamBook;
+  font-size: 13px;
+  color: #000000;
+}
+.ls-id-SL-fixed-font20 {
+  font-family: GothamBook;
+  font-size: 20px;
+  color: #000000;
+}
+.ls-id-SL-fixed-font15 {
+  font-family: GothamBook;
+  font-size: 15px;
+  color: #000000;
+}
+
+.ls-id-SL-fixed-usage-title {
+    font-family: GothamBook;
+    font-size: 29px;
+    text-align: left;
+    color: #e56e1f;
+    padding-left: 25px;
+}
+.ls-id-SL-fixed-plan-date {
+    font-family: GothamBook;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #666666;
+    padding-left: 25px;
+    margin-bottom: 2em;
+}
+.sl-hr-center{
+		display: none;
+	}
+.ls-left-border {
+    border-left: 1px solid #e56e1f;
+}
+/*Landing Screen_M1 ID_SL_Fixed end*/
+/*Classes For Landing Screen M1 ID SL Postpaid Section Start*/
+
+/*LiteSurf + Plan Section Start*/
+.ls-id-sl-subtitle{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000000;
+}
+.ls-id-sl-value{
+	font-family: GothamBook;
+	font-size: 20px;
+	color: #000000;
+}
+
+.ls-id-sl-datefee-value{
+	font-family: GothamBook;
+	font-size: 16px;
+	line-height: 25px;
+	color: #000000;
+}
+.ls-id-sl-left-border{
+	border-left: 1px solid #e56e1f;
+}
+.ls-id-sl-lr-border{
+	border-left: 1px solid #e56e1f;
+	border-right: 1px solid #e56e1f;
+}
+.ls-id-sl-reconect-btn{
+	padding-top: 10px;
+}
+.ls-upgrade-plan{
+	text-align: right;
+	padding-right: 15px;
+}
+.ls-id-sl-hr{
+	display: none;
+}
+
+/*LiteSurf + Plan Section End*/
+/*Usage Section Start*/
+
+/*Chart Panel Style Start*/
+.ls-id-sl-info-title{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #010101;
+	padding-bottom: 10px;
+}
+.ls-id-sl-info-btn{
+    position: absolute;
+    right: 10px;
+}
+.ls-id-sl-chart-value{
+	font-family: GothamBook;
+	font-size: 20px;
+	color: #000000;
+	padding-top: 5px;
+}
+.ls-id-sl-chart-sub-value{
+	font-family: GothamBook;
+	font-size: 15px;
+	color: #000000;
+}
+.ls-id-sl-chart-sub-value-margin{
+	margin-bottom: 2.6em;
+}
+.ls-id-sl-chart-bundle-incoming{
+	margin-bottom: 6em;
+}
+.ls-id-sl-chart-exceeddata{
+	font-family: GothamBook;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #e45b5b;
+	margin-top: 10px;
+    margin-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.chart-btn-right-arrow{
+	border: none;
+	border: solid 1px #003e92;
+	border-radius: 5px;
+    padding: 5px 10px;
+	font-size: 12px;
+	color: #003f92;
+}
+.chart-btn-right-arrow:hover{
+	color: #CAd1E2;
+	background-color: #F3F7F8;
+	border-color: #CAd1E2;
+}
+.chart-btn-right-arrow span{
+	top:3px;
+	color: #003f92;
+}
+.db-sl-chart-btn-div{
+	margin-top: 4em;
+}
+/*Chart Panel Style End*/
+/*Usage Section End*/
+.ls-id-sl-dotted-hr {
+   	border-top: 1px solid #D9D9D9;
+    border-style: dotted;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+/*Blue Panel Section start*/
+.ls-id-sl-blue-panel{
+	background-color: #003F92 ;
+	border-radius: 10px;
+}
+.ls-id-sl-blue-data-div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.ls-id-sl-blue-data-title{
+	font-family: GothamBook;
+	font-size: 25px;
+	color: #FFF;
+}
+.ls-id-sl-blue-charge{
+	display: inline-block;
+	padding-top: 10px;
+}
+.ls-id-sl-blue-charge a{
+	color: #fff;
+	text-decoration: none;
+}
+.ls-id-sl-blue-charge a:hover,.ls-id-sl-blue-charge a:focus,.ls-id-sl-blue-charge a:active{
+	color: #fff;
+	text-decoration: none;
+}
+/*Blue Panel Section End*/
+/*Add-On Panel Section Start*/
+.addon-font15{
+	font-size: 15px;
+	color: #000000;
+}
+/*Add-On Panel Section End*/
+/*Classes For Landing Screen M1 ID SL Postpaid Section end*/
+/*Classes For Landing Screen M1 ID SL Broadband Section Start*/
+.broadband-service-title{
+	font-size: 18px;
+  	color: #000000;
+}
+.broadband-service-content{
+	font-size: 14px;
+  	color: #000000;
+}
+/*Textbox Style Start*/
+.service-email input {
+	width: 98%;
+	 display: block;
+	border: none;
+	padding: 10px 0;
+	padding-right: 20px;
+	padding-left: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid #666;
+	-webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+	transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+	background-position: -1000px 0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	color: #000;
+}
+.service-email input:focus {
+	border-bottom: 1px solid #5AA5DA;
+	box-shadow: none;
+	outline: none;
+	background-position: 0 0;
+}
+.service-email .form-control{
+	display: block;
+    width: 100%;
+    height: 34px; 
+    padding: 6px 12px;
+	font-size: 12px;
+    color: #666666; 
+    background-color: #fff; 
+    background-image: none; 
+    border: 0px; 
+	border-bottom: 1px solid #666;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; 
+
+}
+/*Textbox Style End*/
+
+/*Classes For Landing Screen M1 ID SL Broadband Section end*/
+	
+@media(min-width: 768px){
+	.col-md-4-edit {
+    	width: 32%;
+	}
+	.col-md-5-edit{
+		width: 35%;
+	}
+	.col-md-2-edit{
+		width: 24%;
+	}
+	.col-md-1-edit{
+		width: 6%;
+	}
+	.arrowPos{
+		position: relative;
+    	top: 20px; 
+	}
+}
+/*Media For Tablate Device Start*/
+
+@media (max-width: 992px){
+	
+	.sm-padding-top{
+		padding-top: 15px;
+	}
+	.ls-id-sl-lr-border{
+		border-left: 1px solid #e56e1f;
+		border-right: 0px;
+	}
+}
+/*Media For Tablate Device End*/
+/*Media For mobile Device Start*/
+@media (max-width: 767px){
+	.arrowPos{
+		position: relative;
+    	top: 0px; 
+	}
+	.center-body-xs{
+		text-align: center;
+	}
+	.xs-padding-top20{
+		padding-top: 20px;
+	}
+	.xs-padding-bottom10{
+		padding-bottom: 10px;
+	}
+	.ls-id-sl-value img {
+		margin-left: 10px;
+	}
+	.ls-id-sl-hr{
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 0;
+		border-top: 1px solid #E56E1F;
+		width: 100%;
+	}
+	.ls-id-sl-left-border {
+    	border-left: 0px;
+	}
+	.ls-id-sl-lr-border {
+    	border-left: 0px;
+		border-right: 0px;
+	}
+	.ls-id-sl-srvice-xs{
+		padding-top: 10px;
+	}
+	.ls-upgrade-plan{
+		text-align: left;
+	}
+  .ls-left-border {
+    	border-left: 0px;
+	}
+}
+/*Media For mobile Device End*/
+/*MediaQuery For Mobile Device Start*/
+@media only screen and (max-width: 768px) {
+	.ls-id-account-left-border{
+		border-left: 0px;
+	}
+	.ls-id-account-body-value{
+		margin-bottom: 10px;
+	}
+	.ls-id-bank-card-div{
+		text-align: left;
+		padding-top: 0px;
+		padding-bottom: 15px;
+
+	}
+	.xs-center-align{
+		text-align: center;
+	}
+	.sl-hr-center{
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 0;
+		border-top: 1px solid #E56E1F;
+		width: 100%;
+	}
+}
+/*MediaQuery For Mobile Device End

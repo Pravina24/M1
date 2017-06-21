@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Access Control</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/header-footer.css">
+		<link rel="stylesheet" href="css/header-burger.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/dropdown.css">
+		<link rel="stylesheet" href="css/vertical-menu.css">
+		<link rel="stylesheet" href="css/access_control_consumer.css">
+		<link rel="stylesheet" href="css/panel_table_components.css">
+	</head>
+	<body>
+		<div id="wrapper">
+		<!--Header Section Start-->
+		<header class="header-main">
+			<!-- Header Main Navigation Start -->
+			<div class="container-fluid header-main-link">
+				<div class="container header-container-mobile">
+				<div class="row">
+					<div class="col-md-5 col-sm-6 col-xs-6">
+						<ul class="">
+						  <li><a href="#" class="header-menu-active">Personal</a></li>
+						  <li><a href="#">Business</a></li>
+						</ul>
+					</div>
+					<div class="col-md-7 col-sm-6 col-xs-6">
+						<ul class="pull-right">
+						  <li><a href="#">About M1</a></li>
+				  		  <li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>		
+				</div>
+			</div>
+			<!-- Header Main Navigation End -->
+			<!-- Header Sub Navigation Start -->
+			  <div class="container-fluid header-main-logo">
+
+				<div class="container header-container-mobile">
+				<div class="row">
+				  <div class="col-md-5 col-sm-6 col-xs-5">
+					<ul class="">
+					  <li><a href="#" ><img src="img/M1_Logo.png" alt="Logo M1" class=""/></a></li>
+						<!--Header Burger menu-btn Start-->
+						<li class="position-relative"><a href="#" id="burger_menu" data-target="#myburger" class="burger-img icon-hover"><img src="img/buger.png" alt="burger" class="burger-toggle-img"/></a>
+
+
+					  </li>
+					  <!--Header Burger menu-btn End-->
+					</ul>
+
+				  </div>
+				  <div class="col-md-7 col-sm-6 col-xs-7">
+					<ul class="pull-right">
+						<li><a href="#" class="icon-hover"><img src="img/search.png" alt="Search" class=""/></a></li>
+						<li><a href="#" class="icon-hover"><span><img src="img/notification.png" alt="Notification" class=""/></span><span class="badge">5</span></a></li>
+						<li><a href="#" class="icon-hover"><img src="img/person.png" alt="Persion" class=""/></a></li>
+					</ul>
+				  </div>
+				</div>
+				</div>
+				<div id="side-kick-nav" style="display: none;">
+				<div class="bottom-fill">
+					<div class="overlay"></div>
+				</div>
+				<div class="container side">
+					<div class="row">
+						<div class="col-md-12  col-sm-12">
+							<div class="side-fill" id="menu-item-height">
+								<div class="overlay"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container side-kick">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 level no-border">
+						<div class="overlay"></div>
+						  <!--Burger Menu Section Start-->
+			  <div id="myburger" class="burger-menu">
+				<ul>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/mobile.png" alt="Mobile">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Mobile</div>
+						<span>Phone &amp; Plans</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/tablets.png" alt="Tablets">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Tablets</div>
+						<span>&amp; Mobile Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/home.png" alt="Home">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Home</div>
+						<span>Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/roaming.png" alt="Roaming">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Roaming</div>
+						<span>&amp; International Calls</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyAccount.png" alt="Account">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>Account</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyM1app.png" alt="App">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>M1 App</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/others.png" alt="Other">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Others</div>
+						<span>Sevices</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			  <!--Burger Menu Section End-->
+					</div>
+				</div>
+				</div>  
+				</div>
+				</div>
+			  <!-- Header Sub Navigation End -->
+			
+		</header>
+		<!--Header Section End-->
+		
+		<!--Landing_Screen_Opening Section Start-->
+		<div class="container content-section">
+			<div class="row">
+				<!-- Left Submenu Section Start -->
+				<div class="col-md-2 col-sm-2 leftmenu-body-main">
+					<div class="leftmenu-button"><img src="img/MobileBurger.png"/>
+					<img src="img/close.png"/ style="display:none"></div>
+					<nav class="left-main-menu">
+						<ul class="main-menu">
+							<li>
+								<a class="menu-active" href="#"><span class="left-menu-img left-menu-dashboard"></span><span class="left-main-menu-title">Dashboard</span></a> 
+							</li>
+							<li>
+								<a href="#" data-toggle="collapse" data-target="#sub-menu1"><span class="left-menu-img left-menu-profile"></span> <span class="left-main-menu-title">Profile &#38; Account</span></a> 
+								<ul id="sub-menu1" class="sub-menu collapse">
+									<li>
+										<a href="#"><span>Manage Access</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Profile Update</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Transaction History</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Contract Retrival</span></a> 
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-billing"></span><span class="left-main-menu-title">Billing &#38; Usage</span></a> 
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-services"></span><span class="left-main-menu-title">Services</span></a> 
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-promotions"></span><span class="left-main-menu-title">Promotions</span></a> 
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+				<!-- Left Submenu Section End -->
+				<!--Landing_Screen Body Section Start-->
+				<div class="col-md-10 col-sm-10 col-xs-12 access-control-body-main">
+					<div class="row">
+						<!--Page Header Title Section start -->
+						<div class="col-md-12 margin-bottom30">
+							<!--Page Main Header Title Start-->
+							<div class="main-header-title"><span>Account Dashboard</span></div>
+							<!--Page Main Header Title End-->
+							
+						<!--Page Header ID & Dropdown Section Start-->
+						  <div class="row">
+							  <!--AO Id Section Start-->
+							<div class="col-md-4 col-sm-4 col-xs-12 margin-bottom-2x-mob">
+								<div class="lbl-Aoid">
+									<label  class="lbl-header-title lbl-header-Aoid">AO ID</label>
+									<label  class="lbl-header-body">pix_prod@ml.com.sg</label>
+								</div>
+							</div>
+							   <!--AO Id Section End-->
+							  <!--Dropdwn Section Start-->
+							<div class="col-md-4 col-sm-4 col-xs-12 margin-bottom-2x-mob">
+								<label  class="lbl-header-title">Select Billing Account</label>
+								<a class="btn btn-select">
+									<input type="hidden" class="btn-select-input" id="" name="" value="" />
+									<span class="btn-select-value">Select an Item</span>
+									<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+									<ul>
+										<li class="selected">Option 1</li>
+										<li >Option 2</li>
+										<li>Option 3</li>
+										<li>Option 4</li>
+									</ul>
+								</a>
+							</div>
+							  <!--Dropdwn Section End-->							  
+							  <!--Dropdwn Section Start-->
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<label  class="lbl-header-title">Select Service Line</label>
+								<a class="btn btn-select">
+									<input type="hidden" class="btn-select-input" id="" name="" value="" />
+									<span class="btn-select-value">Select an Item</span>
+									<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+									<ul>
+										<li class="selected">Option 1</li>
+										<li >Option 2</li>
+										<li>Option 3</li>
+										<li>Option 4</li>
+									</ul>
+								</a>
+							</div>
+							  <!--Dropdwn Section End-->							
+						  </div>
+						<!--Page Header ID & Dropdown Section End-->
+						</div>
+						<!--Page Header Title Section End -->
+						<div class="col-md-12">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<!-- Message section Start-->
+									<lable class="ma-lbl-msg">Verify below list and access control to selected service line.</lable>
+									<!-- Message section End-->
+
+									<!-- Inner Body section Start-->
+									<!-- Inner Body Panel Toggle switch section Start-->
+									<div class="panel panel-default">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">Pay Bill</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">Download Bill</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">Number Auction</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<hr class="ma-switch-hr">
+											<div class="row">
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">View Bill</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">Change Alias</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">View Transaction History</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<hr class="ma-switch-hr">
+											<div class="row">
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">Subscribe Add-ons</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													<div class="row">
+														<div class="col-md-8 col-sm-7 col-xs-8 ma-switch-title">Unsubscribe Add-ons</div>
+														<div class="col-md-4 col-sm-5 col-xs-4">
+															<label class="switch-toggle">
+															  <input type="checkbox">
+															  <div class="slider round"></div>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4 col-xs-12">
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Inner Body Panel Toggle switch section End-->
+									
+									<!--Inner Body Button section Start-->
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-12">
+											<img src="img/Tick_suc.png" alt="Tick"><span class="tick-success-txt">Assign access success!</span>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-12">
+											<button type="button" class="btn btn-default btn-xs blue-sm-btn pull-right">Assign Access</button>
+										</div>
+									</div>
+									<!--Inner Body Button section Start-->
+									<!-- Inner Body section End-->
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Landing_Screen Body Section End-->
+			</div>
+		</div>
+		<!--Landing_Screen_Opening Section End-->
+		
+		<!--Footer Section Start-->
+		<footer>
+			<div class="footer hidden-xs">
+				<!--Footer Nav Section Start-->
+				<div class="container">
+				<div class="row align-center">
+					<div class="col-md-12 col-sm-12">
+						<ul>
+							<li><a href="#">FAQ</a><span class="footer-pipeline">|</span></li> 
+							<li><a href="#">Careers</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Terms</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Terms &amp; Conditions</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Data Protection Policy</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Map</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Copyright Act</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">M1 Shops</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Investors</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<!--Footer Nav Section End-->
+				
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 footer-copyright">
+						<hr>
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			</div>
+			<!--Footer For Mobile Device Start-->
+			<div class="footer-mob hidden-md hidden-sm hidden-lg">
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-xs-12">						
+						<ul>
+							<li><span class="footer-dropdown-span">Footer</span>
+								<a class="arrow-up-down footer-dropdown-arrow"><span  class="glyphicon glyphicon-menu-down pull" data-toggle="collapse" data-target="#footer-mob"></span></a>
+							</li> 				
+						</ul>
+					</div>
+					<div class="col-xs-12 collapse" id="footer-mob">
+						<ul>
+							<li><a href="#">FAQ</a></li> 
+							<li><a href="#">Careers</a></li>	
+							<li><a href="#">Site Terms</a></li>
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Data Protection Policy</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Copyright Act</a></li>
+							<li><a href="#">M1 Shops</a></li>
+							<li><a href="#">Investors</a></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 footer-mob-copyright">
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			<!--Footer For Mobile Device End-->
+		</footer>
+		<!--Footer Section End-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="scripts/header-footer.js"></script>
+			<script src="scripts/header-burger.js"></script>
+		<script src="scripts/dropdown.js"></script>
+		<script src="scripts/vertical-menu.js"></script>
+		</div>
+	</body>
+</html>

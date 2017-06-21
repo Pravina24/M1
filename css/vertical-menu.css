@@ -1,0 +1,232 @@
+
+.leftmenu-button {
+	display: none;
+	padding: 10px 5px;
+}
+
+.left-main-menu {
+	display: inline-block;
+    background-color: #fff;
+    width: 115px;
+    height:100%;
+    border-radius: 8px;
+    border: solid 1px rgba(106, 106, 106, 0.2);
+    transition: all 0.5s ease;
+	padding-bottom: 10099px;
+	margin-bottom: -9999px;
+}
+.left-main-menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.left-main-menu>ul>li:first-child{
+	margin-top: 10px;
+}
+.left-main-menu li a {
+    display: block;
+    text-align: center;
+    width: 115px;
+    transition: all 0.3s ease;	
+	text-decoration: none;
+    color: white;
+    border-left: 3px solid #fff;
+}
+.left-main-menu li a img{
+	width: 38px;
+	height: 39px;
+	margin-top: 1em;
+}
+.left-main-menu li a span.left-menu-img{
+    display: block;
+    padding: 20px 10px;
+    padding-bottom: 1em;
+	padding-top: 2.5em;
+	
+}
+.left-main-menu li a span{
+	font-size: 13px;
+	line-height: 14px;
+	font-family:GothamBold;
+	color:#696969;
+    display: block;
+    padding: 5px 10px;
+    padding-bottom: 1em;
+    word-wrap: break-word;
+}
+.left-main-menu li a:hover span{
+    color: #012989;
+}
+
+.left-main-menu li ul.sub-menu li a{
+	background-color: #e6f8fb;
+	color: #4c4c4c;
+	border-left: 0px solid #fff; 
+}
+.left-main-menu li ul.sub-menu li a span{
+	padding: 15px;
+	border-bottom: 1px solid #a2aed1;
+	font-family: GothamBook;
+  	font-size: 13px;
+}
+
+.left-main-menu li ul.sub-menu li:first-child a span{
+	padding: 15px;
+	border-top: 1px solid #a2aed1;
+	font-family: GothamBook;
+  	font-size: 13px;
+}
+.left-main-menu li ul.sub-menu li a hr{
+	width: 80%;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #a2aed1;
+}
+.left-main-menu li ul.sub-menu li a:hover{
+	color: #696969;
+	background-color: #96e7f8;
+}
+
+.menu-active {
+    border-left: 1px solid #012989!important;
+	color: #012989;
+}
+.submenu-active {
+    border-left: 1px solid #012989!important;
+	background-color: #96e7f8!important;
+	color: #012989;
+}
+.menu-active span{
+	color: #012989 !important;
+}
+/*Left Menu image change Start*/
+.left-menu-dashboard{
+	background-image: url('../img/Sidebar/dash_normal.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-dashboard:hover{
+	background-image: url('../img/Sidebar/dash_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-main-menu li a.menu-active .left-menu-dashboard{
+	background-image: url('../img/Sidebar/dash_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-profile{
+	background-image: url('../img/Sidebar/Manage_normal.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-profile:hover{
+	background-image: url('../img/Sidebar/Manage_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-main-menu li a.menu-active .left-menu-profile{
+	background-image: url('../img/Sidebar/Manage_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-billing{
+	background-image: url('../img/Sidebar/bill_normal.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-billing:hover{
+	background-image: url('../img/Sidebar/bill_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-main-menu li a.menu-active .left-menu-billing{
+	background-image: url('../img/Sidebar/bill_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-services{
+	background-image: url('../img/Sidebar/service_normal.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-services:hover{
+	background-image: url('../img/Sidebar/service_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-main-menu li a.menu-active .left-menu-services{
+	background-image: url('../img/Sidebar/service_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-rewards{
+	background-image: url('../img/Sidebar/Reward_normal.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-rewards:hover{
+	background-image: url('../img/Sidebar/Reward_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-main-menu li a.menu-active .left-menu-rewards{
+	background-image: url('../img/Sidebar/Reward_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-promotions{
+	background-image: url('../img/Sidebar/promo_normal.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-menu-promotions:hover{
+	background-image: url('../img/Sidebar/promo_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+.left-main-menu li a.menu-active .left-menu-promotions{
+	background-image: url('../img/Sidebar/promo_hover.png');
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+	
+}
+/*Left Menu image change End*/
+@media (min-width: 992px){
+	.leftmenu-body-main {
+		text-align: right;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.left-main-menu {
+		display: none;
+		position:absolute;
+		height:auto !important;
+	}
+	.leftmenu-button {
+		display: block;
+		padding: 10px 5px;
+	}
+	.leftmenu-body-main {
+    	z-index: 2;
+	}
+}

@@ -1,0 +1,362 @@
+/*Classes For Dashboard BA Section Start*/
+/*Total Secsion Box Start*/
+.db-ba-bill-section{
+	padding: 10px 0px;
+}
+.db-ba-bill-section > div{
+	padding-bottom: 10px;
+}
+.db-ba-bill-value{
+	font-family: GothamBook;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #e56e1f;
+}
+.db-overdue-main{
+	display: inline-block;
+    padding-bottom: 0px;
+	padding-left: 5px;
+    border-left: 1px solid #e56e1f;
+}
+.db-overdue-title{
+	font-family: GothamBook;
+	text-align: left;
+	font-size: 12px;
+	color: #000000;
+}
+.db-overdue-value{
+	font-family: GothamBook;
+	text-align: left;
+	font-size: 14px;
+	color: #e56e1f;
+}
+.db-total-title{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000000;
+}
+.db-total-box{
+	margin-bottom: 1em;
+}
+.db-total-right-border{	
+	border-right: 1px solid #E4E4E5;
+}
+.btn-width-125{
+	width:125px;
+}
+/*Total Secsion Box End*/
+
+/*Exceed Usage Section Start*/
+.db-ba-exceed-title{
+	font-family: GothamBook;
+	font-size: 29px;
+	text-align: left;
+	color: #e56e1f;
+}
+.db-ba-updated-date{
+	font-family: GothamBook;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #666666;
+}
+/*Exceed Usage Panel Section Start*/
+.db-ba-usage-panel{
+	padding: 10px;
+}
+.db-ba-usage-panel>span{
+	display: inline-block;
+}
+.db-ba-usage-panel>span:first-child{
+	padding-right: 5px;
+}
+.db-ba-usage-panel>span:nth-child(2){
+	font-family: GothamBook;
+	font-size: 17px;
+	text-align: center;
+	color: #000000;
+}
+.db-ba-usage-panel>span:nth-child(3){
+	float: right;
+    padding-top: 3px;
+}
+.db-ba-usage-serviveline{
+	text-align: right;
+	font-family: GothamBook;
+	font-size: 15px;
+	color: #000000;
+}
+.db-ba-usage-serviveline>span:first-child{
+	color: #e56e1f;
+}
+/*Exceed Usage Panel Section Start*/
+/*Exceed Usage Section End*/
+/*Latest Transactions Section Start*/
+.db-ba-tarnsactions-title{
+	font-family: GothamBook;
+	font-size: 25px;
+	text-align: left;
+	color: #e56e1f;
+}
+.db-ba-tarnsactions-media .media-body{
+	padding-left: 15px;
+}
+.db-ba-media-left-title{
+	font-family: GothamBook;
+	font-size: 12px;
+	color: #666666;
+	background-color: #EEEEEE;
+	line-height: 14px;
+	padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.db-ba-media-left-title>span{
+	font-size: 17px;
+	color: #e56e1f;
+}
+.db-ba-media-body-title{
+	font-size: 15px;
+	color: #000000;
+}
+.db-ba-media-body-subtitle{
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #6b6b6b;
+}
+
+.db-ba-dotted-hr{
+	border-top: 1px solid #D9D9D9;
+	border-style: dotted;
+	margin-top:12px;
+	margin-bottom:12px;
+}
+.db-ba-viewall{
+	float: right;
+	padding: 1em;
+}
+/*Latest Transactions Section Ens*/
+/*Classes For Dashboard BA Section End*/
+
+/*Media For Tablate Device Start*/
+@media (max-width: 992px){
+	.db-total-right-border{
+		border-right: 0px;
+	}
+	.db-ba-tarnsactions-title{
+	font-size: 24px;
+	}
+}
+/*Media For Mobile Device Start*/
+@media (max-width: 767px){
+	.db-ba-tarnsactions-title{
+	font-size: 24px;
+	}
+}
+
+/*Classes For Dashboard Service Line Section Start*/
+/*Max Plan Section Start*/
+.db-sl-maxplan-title{
+	font-family: GothamBook;
+	font-size: 29px;
+	color: #e56e1f;
+}
+.db-sl-maxplan-date{
+	font-family: GothamBook;
+	font-size: 13px;
+	letter-spacing: 1px;
+	color: #666666;
+}
+.db-sl-maxplan-date-row{
+	padding-bottom: 20px;
+}
+.db-sl-maxplan-subtitle{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000000;
+}
+.db-sl-maxplan-value{
+	font-family: GothamBook;
+	font-size: 20px;
+	color: #000000;
+}
+.db-sl-maxplan-value img{
+	margin-left: 20px;
+}
+.db-sl-maxplan-datefee-value{
+	font-family: GothamBook;
+	font-size: 16px;
+	color: #000000;
+}
+.db-sl-maxplan-left-border{
+	border-left: 1px solid #e56e1f;
+}
+.db-sl-maxplan-reconect-btn{
+	padding-top: 10px;
+}
+.db-sl-hr{
+	display: none;
+}
+/*Max Plan Section End*/
+/*Plan Usage Section Start*/
+.db-sl-plan-title{
+	font-family: GothamBook;
+	font-size: 29px;
+	text-align: left;
+	color: #e56e1f;
+}
+.db-sl-plan-date{
+	font-family: GothamBook;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #666666;
+	margin-bottom: 2em;
+}
+.db-sl-dropdown-margin{
+	margin-top: 2em;
+}
+.db-sl-dropdown-margin .btn-select{
+	min-width: 170px;
+}
+.db-sl-center-body{
+		text-align: center;	
+	}
+/*Chart Panel Style Start*/
+.db-sl-info-title{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #010101;
+	padding-bottom: 10px;
+}
+.db-sl-info-btn{
+    position: absolute;
+    right: 10px;
+}
+.db-sl-chart-value{
+	font-family: GothamBook;
+	font-size: 20px;
+	color: #000000;
+	padding-top: 5px;
+}
+.db-sl-chart-sub-value{
+	font-family: GothamBook;
+	font-size: 15px;
+	color: #000000;
+}
+.db-sl-chart-sub-value-margin{
+	margin-bottom: 2.6em;
+}
+.db-sl-chart-bundle-incoming{
+	margin-bottom: 6em;
+}
+.db-sl-chart-exceeddata{
+	font-family: GothamBook;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #e45b5b;
+	margin-top: 10px;
+    margin-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.db-sl-chart-bundle{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #D9D9D9;
+    border-bottom-style: dotted;
+}
+.db-sl-chart-bundle span:first-child{
+	font-family: GothamBold;
+	font-size: 13px;
+	float: left;
+}
+.db-sl-chart-bundle span:last-child{
+	font-family: GothamBold;
+	font-size: 13px;
+	float: right;
+}
+.db-sl-chart-bundle-sub{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.db-sl-chart-bundle-sub span:first-child{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000;
+	float: left;
+}
+.db-sl-chart-bundle-sub span:last-child{
+	font-family: GothamBook;
+	font-size: 13px;
+	color: #000;
+	float: right;
+}
+.chart-btn-right-arrow{
+	border: none;
+	border: solid 1px #003e92;
+	border-radius: 5px;
+    padding: 5px 10px;
+	font-size: 12px;
+	color: #003f92;
+}
+.chart-btn-right-arrow:hover{
+	color: #CAd1E2;
+	background-color: #F3F7F8;
+	border-color: #CAd1E2;
+}
+.chart-btn-right-arrow span{
+	top:3px;
+	color: #003f92;
+}
+.db-sl-chart-btn-div{
+	margin-top: 4em;
+}
+/*Chart Panel Style End*/
+/*Plan Usage Section End*/
+
+/*Classes For Dashboard Service Line Section End*/
+
+/*Media For Tablate Device Start*/
+@media (max-width: 992px){
+	.db-sl-padding-top-sm{
+		padding-top: 1em;
+	}
+	.db-sl-maxplan-reconect-btn {
+    	padding-top: 1.6em;
+	}
+	.db-sl-dropdown-margin{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		padding-left: 33px;
+    	padding-right: 35px;
+	}
+}
+/*Media For Tablate Device End*/
+/*Media For mobile Device Start*/
+@media (max-width: 767px){
+	.db-sl-maxplan-date-row{
+		position: static;
+	}
+	.db-sl-center-body-xs{
+		text-align: center;
+	}
+	.db-sl-maxplan-value img {
+		margin-left: 10px;
+	}
+	.db-sl-hr{
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 0;
+		border-top: 1px solid #E56E1F;
+		width: 60%;
+	}
+	.db-sl-maxplan-left-border {
+    	border-left: 0px;
+	}
+	.db-sl-srvice-xs{
+		padding-top: 10px;
+	}
+}
+/*Media For mobile Device End*/

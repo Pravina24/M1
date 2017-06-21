@@ -1,0 +1,287 @@
+/* content panel css  */
+.cursor-pointer{
+    cursor: pointer;
+}
+.row-padding{
+    padding:30px 30px 0px 30px;
+}
+.step-row-padding{
+    padding:10px 15px 0;
+}
+.padding-left{
+    padding-left:30px !important;
+}
+.padding-top-bottom-10{
+    padding:10px 0;
+}
+.padding-top-10{
+    padding-top:10px;
+}
+.padding-top0{
+    padding-top:0 !important;
+}
+.padding0{
+    padding:0 !important;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.list-table-heading{
+ font-family: GothamBook;
+  font-size: 16px;
+  color: #ff7b3b;
+}
+.module-circle {
+	width: 40px;
+	height: 40px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    border:1px solid #6aadf3;
+    text-align: center;
+}
+.module-circle img{
+    position: relative;
+    top:3px;
+  	width:30px;
+  	height:30px;
+}
+
+.suspended{
+    background-color:#faeded !important;
+}
+.suspended th{ 
+    border-left:#e94e4e;
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding-left:26px !important;
+}
+.pagination {
+    margin:0 30px 0 0 !important;
+    border-radius:8px !important;
+}
+.pagination>li>a, .pagination>li>span{
+    padding:10px 15px !important;
+}
+/*---------------------------------Account settings---------------------*/
+.account-number-holder{
+    border-radius: 10px;
+    background-color: #f4f8f9;
+    border: 2px dotted #9cd4e0;
+    padding:15px 8px;
+    text-align:center;
+    color: #000;
+    font-size: 12px;
+}
+.star-position{
+    position: relative;
+    top: 3px;
+   padding-left:5px;
+}
+.billing-account-details{
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+.billing-account-details .panel-default{
+    margin-bottom: 0;
+   
+}
+.billing-account-details .panel-default>.panel-heading{
+    position: relative;
+    border: 0;
+}
+.billing-number{
+  font-size: 13px;
+  color: #595555;
+  font-weight: 700;
+}
+.service-count{
+     font-size: 13px;
+  color: #595555;
+}
+.service-line-data{
+   display:inline-block;
+    padding-left: 15px;
+}
+.star-image-holder{
+    position: absolute;
+    top: 8px;
+    left: -30px;
+}
+
+.history-option{
+    width:120px ;
+    min-width: 120px ;
+}
+.history-filter-date{
+ margin-left: 5px;
+ padding-right: 20px;
+    font-size: 14px;
+     border:0;
+     width:125px;
+    border-bottom: solid 1px #6a6a6a;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: none;
+    
+    background-position: -1000px 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #666;
+}
+.add-on{
+    
+    width: auto;
+    height: 30px;
+    min-width: 24px;
+    padding: 4px 5px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ffffff;
+    position: absolute;
+    right: -7px;
+    top: -8px;
+   
+}
+
+.transaction-history-data td,.transaction-history-data th{
+  padding-top:15px !important;
+  padding-bottom: 15px !important;
+}
+.lr-no-border{
+    border-left:0;
+    border-right:0;
+}
+.transaction-date-box {
+    position: relative;
+    top: 13px;
+    padding-right:0;
+	
+}
+
+.transaction-date-box input{
+  width:100% !important;
+  margin-left:0 !important;
+  
+}
+/*---------Request For Suspension Style Start-----------*/
+
+.table-request-suspension>.table tr th,
+.table-request-suspension>.table tr td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.reason-dropdown>.btn-select{
+	min-width: 120px;
+}
+.fancy-radio-group .btn{
+	padding: 0px;
+}
+.request-td5{
+	width: 5%;
+}
+.padding-left25{
+	padding-left: 25px !important;
+}
+.green>.status-circle{
+	width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #92D436;
+	position: relative;
+	top: 1px;
+    display: inline-block;
+	margin-right: 7px;
+}
+.green>.status-txt{
+	color: #92D436;
+}
+.red>.status-circle{
+	width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #E84D4F;
+	position: relative;
+	top: 1px;
+    display: inline-block;
+	margin-right: 7px;
+}
+.red>.status-txt{
+	color: #E84D4F;
+}
+/*Request For Suspension Style End*/
+
+@media only screen and (max-width: 767px) {
+.xs-margin-left-right15{
+    margin-left:15px;
+    margin-right:15px;
+}
+.step-row-padding{
+    padding:10px 30px 0;
+}
+.xs-padding-left0{
+    padding-left:0;
+}
+.billing-account-details{
+    padding-left: 0;
+   
+   
+}
+.xs-margin-top15{
+    margin-top:15px;
+}
+.xs-padding-left-right30 .history-option{
+    width:100% !important;
+}
+
+.transaction-date-box {
+   
+    padding-right:15px;
+	
+}
+.add-on {
+    position: absolute;
+    right: 7px;
+    top: -8px;
+}
+.transaction-history-data .history-data, .xs-request-data{
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+ }
+.star-image-holder {
+    right: 32px;
+    left:auto;
+}
+.xs-padding-left20{
+	padding-left: 20px;
+}
+.xs-padding-right14{
+    padding-right:14px;
+	}
+.history-option{
+    width:100% ;
+}
+	.xs-nopadding-left-right{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.xs-request-data{
+	  border-top:1px solid #ddd;
+	  border-bottom:1px solid #ddd;
+		position: relative;
+	 }
+	.xs-request-radio{
+		position: absolute;
+		left: -10px;
+		top: 22px;
+	}
+
+}

@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Manage VaSes</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
+	<link rel="stylesheet" href="css/header-footer.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header-burger.css">
+	<link rel="stylesheet" href="css/vertical-menu.css">
+	<link rel="stylesheet" href="css/dropdown.css">
+	<link rel="stylesheet" href="css/panel_table_components.css">
+	<link rel="stylesheet" href="css/usermanagement.css">
+	<link rel="stylesheet" href="css/step_wizard.css">
+	<link rel="stylesheet" href="css/access_control.css">
+	<link rel="stylesheet" href="css/vases_activation.css">
+	
+</head>
+
+<body>
+	<div id="wrapper">
+	<!--Header Section Start-->
+		<header class="header-main">
+			<!-- Header Main Navigation Start -->
+			<div class="container-fluid header-main-link">
+				<div class="container header-container-mobile">
+				<div class="row">
+					<div class="col-md-5 col-sm-6 col-xs-6">
+						<ul class="">
+						  <li><a href="#" class="header-menu-active">Personal</a></li>
+						  <li><a href="#">Business</a></li>
+						</ul>
+					</div>
+					<div class="col-md-7 col-sm-6 col-xs-6">
+						<ul class="pull-right">
+						  <li><a href="#">About M1</a></li>
+				  		  <li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>		
+				</div>
+			</div>
+			<!-- Header Main Navigation End -->
+			<!-- Header Sub Navigation Start -->
+			  <div class="container-fluid header-main-logo">
+
+				<div class="container header-container-mobile">
+				<div class="row">
+				  <div class="col-md-5 col-sm-6 col-xs-5">
+					<ul class="">
+					  <li><a href="#" ><img src="img/M1_Logo.png" alt="Logo M1" class=""/></a></li>
+						<!--Header Burger menu-btn Start-->
+						<li class="position-relative"><a href="#" id="burger_menu" data-target="#myburger" class="burger-img icon-hover"><img src="img/buger.png" alt="burger" class="burger-toggle-img"/></a>
+
+
+					  </li>
+					  <!--Header Burger menu-btn End-->
+					</ul>
+
+				  </div>
+				  <div class="col-md-7 col-sm-6 col-xs-7">
+					<ul class="pull-right">
+						<li><a href="#" class="icon-hover"><img src="img/search.png" alt="Search" class=""/></a></li>
+						<li><a href="#" class="icon-hover"><span><img src="img/notification.png" alt="Notification" class=""/></span><span class="badge">5</span></a></li>
+						<li><a href="#" class="icon-hover"><img src="img/person.png" alt="Persion" class=""/></a></li>
+					</ul>
+				  </div>
+				</div>
+				</div>
+				<div id="side-kick-nav" style="display: none;">
+				<div class="bottom-fill">
+					<div class="overlay"></div>
+				</div>
+				<div class="container side">
+					<div class="row">
+						<div class="col-md-12  col-sm-12">
+							<div class="side-fill" id="menu-item-height">
+								<div class="overlay"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container side-kick">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 level no-border">
+						<div class="overlay"></div>
+						  <!--Burger Menu Section Start-->
+			  <div id="myburger" class="burger-menu">
+				<ul>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/mobile.png" alt="Mobile">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Mobile</div>
+						<span>Phone &amp; Plans</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/tablets.png" alt="Tablets">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Tablets</div>
+						<span>&amp; Mobile Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/home.png" alt="Home">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Home</div>
+						<span>Broadband</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/roaming.png" alt="Roaming">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Roaming</div>
+						<span>&amp; International Calls</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyAccount.png" alt="Account">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>Account</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/MyM1app.png" alt="App">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">My</div>
+						<span>M1 App</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="media">
+						<div class="media-left burger-menu-media-left">
+						  <img class="media-object" src="img/burgerMenu_icons/others.png" alt="Other">
+						</div>
+						<div class="media-body burger-menu-media-body">
+						<div class="media-heading">Others</div>
+						<span>Sevices</span>
+						</div>
+					  </div>
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			  <!--Burger Menu Section End-->
+					</div>
+				</div>
+				</div>  
+				</div>
+				</div>
+			  <!-- Header Sub Navigation End -->
+			
+		</header>
+		<!--Header Section End-->
+   
+	<!--Main Section Start-->
+	
+	<div class="container content-section">
+		<div class="row">
+			<!-- Left Submenu Section Start -->
+				<div class="col-md-2 col-sm-2 leftmenu-body-main">
+					<div class="leftmenu-button"><img src="img/MobileBurger.png"/>
+					<img src="img/close.png"/ style="display:none"></div>
+					<nav class="left-main-menu">
+						<ul class="main-menu">
+							<li>
+								<a class="menu-active" href="#"><span class="left-menu-img left-menu-dashboard"></span><span class="left-main-menu-title">Dashboard</span></a> 
+							</li>
+							<li>
+								<a href="#" data-toggle="collapse" data-target="#sub-menu1"><span class="left-menu-img left-menu-profile"></span> <span class="left-main-menu-title">Profile &#38; Account</span></a> 
+								<ul id="sub-menu1" class="sub-menu collapse">
+									<li>
+										<a href="#"><span>Manage Access</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Profile Update</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Transaction History</span></a> 
+									</li>
+									<li>
+										<a href="#"><span>Contract Retrival</span></a> 
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-billing"></span><span class="left-main-menu-title">Billing &#38; Usage</span></a> 
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-services"></span><span class="left-main-menu-title">Services</span></a> 
+							</li>
+							<li>
+								<a href="#"><span class="left-menu-img left-menu-promotions"></span><span class="left-main-menu-title">Promotions</span></a> 
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+				<!-- Left Submenu Section End -->
+			<!--Container Section Start-->
+			<div class="col-md-10 col-sm-10 col-xs-12">
+				<!--Page body Header Section Start-->
+				<div class="row">
+                <!--Page Header Title Section start -->
+					<div class="col-md-12">
+						<!--Page Main Header Title Start-->
+						<div class="main-header-title"><span>Manage VASes</span></div>
+						<!--Page Main Header Title End-->
+
+					<!--Page Header ID & Dropdown Section Start-->
+					  <div class="row margin-bottom30">
+						  <!--AO Id Section Start-->
+						<div class="col-md-4 col-sm-4 col-xs-12 margin-bottom-2x-mob">
+							<div class="lbl-Aoid">
+								<label  class="lbl-header-title lbl-header-Aoid">AO ID</label>
+								<label  class="lbl-header-body">pix_prod@ml.com.sg</label>
+							</div>
+						</div>
+						   <!--AO Id Section End-->
+						  <!--Dropdwn Section Start-->
+						<div class="col-md-4 col-sm-4 col-xs-12 margin-bottom-2x-mob">
+							<label  class="lbl-header-title">Select Billing Account</label>
+							<a class="btn btn-select">
+								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+								<span class="btn-select-value">Select an Item</span>
+								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+								<ul>
+									<li class="selected">Option 1</li>
+									<li >Option 2</li>
+									<li>Option 3</li>
+									<li>Option 4</li>
+								</ul>
+							</a>
+						</div>
+						  <!--Dropdwn Section End-->							  
+						  <!--Dropdwn Section Start-->
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							
+						</div>
+						  <!--Dropdwn Section End-->							
+					  </div>
+					<!--Page Header ID & Dropdown Section End-->
+					</div>
+				<!--Page Header Title Section End -->
+				</div>
+				<!--Page body Header Section End-->
+				<!--Page Body Panel Section Start-->
+				<div class="row margin-bottom30">
+					<div class=" col-md-12 col-sm-12 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-body padding-left-right0 padding-top0">
+								<div class="row step-row-padding">
+									<!--Wizard Section Start-->
+									<div class="wizard">
+										<div class="wizard-inner">
+											<div class="connecting-line-4step"></div>
+											<ul class="nav nav-tabs" role="tablist" style="height:88px;">
+												<li role="presentation" class="active vases-tabs-width">
+													<a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Select Service Line">
+														<span class="round-tab">1</span>
+													</a>
+													<div class="step-text">Select Service Line</div>
+													<div class="step-complete"><img src="img/Tick_suc.png" width="30" alt="complete" /></div>
+												</li>
+												<li role="presentation" class="disabled vases-tabs-width">
+													<a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Select VASes">
+														<span class="round-tab">2</span>
+													</a>
+													<div class="step-text">Select VASes</div>
+													<div class="step-complete"><img src="img/Tick_suc.png" width="30" alt="complete" /></div>
+												</li>
+												<li role="presentation" class="disabled vases-tabs-width">
+													<a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Eligibility Selection">
+														<span class="round-tab">3</span>
+													</a>
+													<span class="step-text">Eligibility Selection</span>
+													<div class="step-complete"><img src="img/Tick_suc.png" width="30" alt="complete" /></div>
+												</li>
+												<li role="presentation" class="disabled vases-tabs-width">
+													<a href="#step4" data-toggle="tab" aria-controls="step4" role="tab" title="Acknowledgement">
+														<span class="round-tab">4</span>
+													</a>
+													<span class="step-text">Acknowledgement</span>
+												</li>
+											</ul>
+											</div>
+											<div class="col-xs-12 hidden-lg hidden-md hidden-sm xs-step-heading padding-left4" id="stepTxt">Select Service Line</div>
+											<form role="form" class="xs-clear-both">
+												<div class="tab-content">
+													<!--Step1 Section Start-->
+													<div class="tab-pane active panel-noradius" role="tabpanel" id="step1">
+
+														<div class="panel panel-default margin-left-right5perc bottom-radius0">
+															<!-- Radio and checkbox button -->
+															<div class="panel-heading vases-heading xs-padding-left10">
+																<div data-toggle="buttons" class="btn-group btn-group-justified fancy-radio-group">
+																	<label class="btn btn-fancy-radio text-xs text-no-transform clearfix gray_666 padding-lr10"> 
+																		<img src="img/tick1_1.png" class="normal"/> 
+																		<img src="img/tick1_2.png" class="checked" /> Subscribe VASes			
+																		<input type="radio" class="hidden" name="options">
+																	</label>
+																	<label class="btn btn-fancy-radio text-xs text-no-transform clearfix gray_666"> <img src="img/tick1_1.png" class="normal"/> <img src="img/tick1_2.png" class="checked" /> Unsubscribe VASes
+																	<input type="radio" class="hidden" name="options">
+																	</label>
+																</div>
+															</div>
+															<!-- Radio and checkbox end here -->
+															<!-- Select Service Line Table Panel Start -->
+															<div class="panel-body padding-top0 padding-left-right0">
+																<!--Search Section Start-->
+																<div class="row padding15">
+																	<div class="col-md-4 col-sm-6 col-xs-12 pull-right">
+																		<div class="input-group search-add-on">
+																		  <input class="form-control" placeholder="Serach by service line" type="text">
+																		  <div class="input-group-btn">
+																			<button class="btn search-btn" type="button"><img src="img/search.png"></button>
+																		  </div>
+																		</div>
+																	</div>
+																</div>
+																<!--Search Section End-->
+																<!--Table Section For Desktop Start-->
+																	<div class="list-group viewlist-grid-text hidden-xs">
+																	<!--Table Header  Fixed Start-->
+																	<div class="row  list-group-item  viewlist-header-grid vases-table-header padding-left15">
+																		<div class="col-md-1 col-md-vases1 col-xs-1">
+																			<span class="common-button-checkbox">
+																			<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																				<input type="checkbox" value="" class="hidden" checked="">
+																			</span>
+																		</div>
+																		<div class="col-md-2 col-sm-3">Service Number</div>
+																		<div class="col-md-2 col-sm-3">User Name</div>
+																		<div class="col-md-2 col-sm-3">Active VASes</div>
+																		<div class="col-md-6 col-md-vases6 col-sm-2"></div>
+																	</div>
+																	<!--Table Header  Fixed End-->
+																	<!--Table Body  repeat Start-->
+																	<div class=" list-group-item vases-table-item">
+																		<div class="row row-heading active-heading padding-left15">
+																			<div class="col-md-1 col-md-vases1 col-xs-1">
+																				<span class="common-button-checkbox">
+																				<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																					<input type="checkbox" value="" class="hidden" checked="">
+																				</span>
+																			</div>
+																			<div class="col-md-2 col-xs-3 font-bold">85498758</div>
+																			<div class="col-md-2 col-xs-3">User1</div>
+																			<div class="col-md-2 col-xs-3">3</div>
+																			<div class="col-md-6 col-md-vases6 col-xs-2">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo"><img src="img/up.png" /></span></a>
+																			</div>
+																		</div>
+
+																		<div class="row row-data margin-voice-left" id="demo">
+																			<hr>
+																			<div class="col-md-12 text-bold padding-bottom10 padding-top10 padding-left4">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			<div class="col-md-5">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">Caller Nuber Non-Display | Permanet $5.35</span>
+																					</h5>
+																					<p class="padding-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																			<div class="col-md-4">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Upsizeed Data Plus $11.80
+																						</span>
+																					</h5>
+																					<p class="padding-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																			<div class="col-md-3">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Voicemail Plus
+																						</span>
+																					</h5>
+																					<p class="padding-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
+
+																	<div class=" list-group-item vases-table-item">
+																		<div class="row row-heading padding-left15">
+																			<div class="col-md-1 col-md-vases1 col-xs-1">
+																				<span class="common-button-checkbox">
+																				<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																					<input type="checkbox" value="" class="hidden" checked="">
+																				</span>
+																			</div>
+																			<div class="col-md-2 col-xs-3 font-bold">85498758</div>
+																			<div class="col-md-2 col-xs-3">User1</div>
+																			<div class="col-md-2 col-xs-3">3</div>
+																			<div class="col-md-6 col-md-vases6 col-xs-2">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo1"><img src="img/down.png" /></span></a>
+																			</div>
+																		</div>
+
+																		<div class="row row-data margin-voice-left collapse" id="demo1">
+																			<hr>
+																			<div class="col-md-12 text-bold padding-bottom10 padding-top10 padding-left4">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			<div class="col-md-5">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">Caller Nuber Non-Display | Permanet $5.35</span>
+																					</h5>
+																					<p class="padding-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																			<div class="col-md-4">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Upsizeed Data Plus $11.80
+																						</span>
+																					</h5>
+																					<p class="padding-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																			<div class="col-md-3">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Voicemail Plus
+																						</span>
+																					</h5>
+																					<p class="padding-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
+																	 <div class="pull-right padding-top15">
+																	<ul class="pagination">
+																		<li><a href="#"><img src="img/backword.png" alt="" /></a></li>
+																		<li><a href="#">1</a></li>
+																		<li><a href="#">2</a></li>
+																		<li><a href="#">3</a></li>
+																		<li><a href="#"><img src="img/forward.png" alt="" /></a></li>
+																	</ul>
+																</div>
+																</div>
+																<!--Table Section For Desktop End-->
+																<!--Table Section For Mobile Start-->
+																<div class="hidden-md hidden-sm hidden-lg panel-noradius">
+																<!--Panel Repeat Start-->
+																<div class="panel panel-default margin-bottom0">
+																	<div class="panel-heading row-heading active-heading">
+																		<div class="row padding-top-bottom-10">
+																			<span class="col-xs-7 text-bold">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				Service Number
+																			</span>
+																			<span class="col-xs-5 text-bold text-align-right">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				85968581
+																			</span>
+																		</div>
+																		<div class="row padding-top-bottom-10">
+																			<span class="col-xs-6 text-bold">User Name</span>
+																			<span class="col-xs-6 text-align-right">user 1</span>
+																		</div>
+																		<div class="row padding-top-bottom-10">
+																			<span class="col-xs-6 text-bold">Active VaSes</span>
+																			<span class="col-xs-6 text-align-right">3</span>	
+																			<span class="col-xs-12 padding-top10">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo_xs"><img src="img/up.png" /></span></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="panel-body padding-top0 padding-bottom0">
+																		<div class="row row-data xs-row-data" id="demo_xs">
+																			<div class="col-xs-12 text-bold padding-top10 padding-bottom10 padding-left4">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			<div class="col-xs-12">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Ultimate Security for Windows/Mac/Android
+																						</span>
+																					</h5>
+																					<p class="margin-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																				<hr/>
+																			</div>
+
+																			<div class="col-xs-12">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Data Usage Alert
+																						</span>
+																					</h5>
+																					<p class="margin-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																				<hr/>
+																			</div>
+
+																			<div class="col-xs-12">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							MMS Super Saver
+																						</span>
+																					</h5>
+																					<p class="margin-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!--Panel Repeat End-->
+																<!--Panel Repeat Start-->
+																<div class="panel panel-default margin-bottom0">
+																	<div class="panel-heading row-heading">
+																		<div class="row padding-top-bottom-10">
+																			<span class="col-xs-7 text-bold">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				Service Number
+																			</span>
+																			<span class="col-xs-5 text-bold text-align-right">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				85968581
+																			</span>
+																		</div>
+																		<div class="row padding-top-bottom-10">
+																			<span class="col-xs-6 text-bold">User Name</span>
+																			<span class="col-xs-6 text-align-right">user 1</span>
+																		</div>
+																		<div class="row padding-top-bottom-10">
+																			<span class="col-xs-6 text-bold">Active VaSes</span>
+																			<span class="col-xs-6 text-align-right">3</span>	
+																			<span class="col-xs-12 padding-top10">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo_xs3"><img src="img/down.png"/></span></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="panel-body padding-top0 padding-bottom0">
+																		<div class="row row-data xs-row-data collapse" id="demo_xs3">
+																			<div class="col-xs-12 text-bold padding-top10 padding-bottom10 padding-left4">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			<div class="col-xs-12">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Ultimate Security for Windows/Mac/Android
+																						</span>
+																					</h5>
+																					<p class="margin-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																				<hr/>
+																			</div>
+
+																			<div class="col-xs-12">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							Data Usage Alert
+																						</span>
+																					</h5>
+																					<p class="margin-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																				<hr/>
+																			</div>
+
+																			<div class="col-xs-12">
+																				<div class="bs-style-small">
+																					<h5 class="left-orange-inline-border">
+																						<span class="display-inlineBlock">
+																							MMS Super Saver
+																						</span>
+																					</h5>
+																					<p class="margin-top10">Activated on 12 Nov 2016</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!--Panel Repeat End-->
+																</div>
+																<!--Table Section For Mobile End-->
+																</div>															
+															<!-- Select Service Line Table Panel End -->
+															<button type="button" class="btn btn-default btn-xs btn-xs-block blue-sm-btn pull-right margin-top40 next-step">Next</button>
+														</div>
+
+													</div>
+													<!--Step1 Section End-->
+													
+													<!--Step2 Section Start-->
+													<div class="tab-pane panel-noradius" role="tabpanel" id="step2">
+
+														<div class="panel panel-default Subscribe-vas-table margin-left-right5perc bottom-radius0">
+															<!-- Subsribe Vases Header Section Start -->
+															<div class="panel-heading vases-heading xs-padding-left10">
+																<div class="row">
+																	<div class="col-md-5 col-sm-4 txt-font13 xs-margin-bottom10">Subscribe VASes</div>
+																	<div class="col-md-4 col-sm-4 text-align-right xs-alignLeft subscribe-rightborder">
+																		<span class="title-font17">$120.00 <span class="txt-font13">/Registration Charges</span></span>
+																		
+																	</div>
+																	<div class="col-md-3 col-sm-4 text-align-right xs-alignLeft">
+																		<span class="title-font17">$90.00 <span class="txt-font13">/Monthly Charges</span></span>
+																	</div>
+																</div>
+															</div>
+															<!-- Subsribe Vases Header Section End -->
+															<!-- Subsribe Vases Table Panel Start -->
+															<div class="panel-body padding-top0 padding-left-right0">
+																<!--Search Section Start-->
+																<div class="row padding15">
+																	<div class="col-md-4 col-sm-6 col-xs-12 pull-right">
+																		<div class="input-group search-add-on">
+																		  <input class="form-control" placeholder="Serach by service line" type="text">
+																		  <div class="input-group-btn">
+																			<button class="btn search-btn" type="button"><img src="img/search.png"></button>
+																		  </div>
+																		</div>
+																	</div>
+																</div>
+																<!--Search Section End-->
+																<!--List Group Start-->
+																<div class="list-group viewlist-grid-text margin-bottom0">
+																		<!--Table Body  repeat Start-->
+																		<div class=" list-group-item vases-table-item">
+																			<div class="row row-heading  active-heading padding-top-bottom5 xs-padding-left0">
+																				<div class="col-md-1-edit col-md-1 col-xs-1 xs-padding-left5 padding-left5-right0"><span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" checked />
+																				</span>
+																				</div>
+																				<div class="col-md-4-edit col-md-4 col-xs-11 text-bold">
+																					<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																				</div>
+																				<div class="col-md-3 col-xs-12 line-height37">Total Plans - 03</div>
+																				<div class="col-md-4 col-xs-12 line-height37 padding-right0">Selected Plans - 03
+																					<a class="up-down"><span  class="pull-right"   data-target="#demo_step1"><img src="img/up.png" /></span></a>
+																				</div>
+																				
+																			</div>
+
+																			<div class="row row-data padding-top-bottom15 xs-padding-left0" id="demo_step1">
+																				
+																				<div class="col-md-1 col-xs-1 hidden-xs hidden-sm">&nbsp;</div>
+																				<div class="col-md-3 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="upsized Data" />Upsized Data
+																				</span>
+																				<p class="data-paragraph">Enjoy moredata on your plan</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Entertainment Data
+																				</span>
+																				<p class="data-paragraph">Non-stop entertainment, unlimited data</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Caller Number Non-Display
+																				</span>
+																				<p class="data-paragraph">Keep your number confidential</p>
+																				</div>
+																			</div>
+
+																		</div>
+                                                                        <!--Table Body  repeat Start-->
+																		<div class=" list-group-item vases-table-item">
+																			<div class="row row-heading  padding-top-bottom5 xs-padding-left0">
+																				<div class="col-md-1-edit col-md-1 col-xs-1 xs-padding-left5 padding-left5-right0"><span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" checked />
+																				</span>
+																				</div>
+																				<div class="col-md-4-edit col-md-4 col-xs-11 text-bold">
+																					<img class="padding-right10" src="img/vases_step1/entertainment.png" alt="" /> Music &amp; Entertainment
+																				</div>
+																				<div class="col-md-3 col-xs-12 line-height37">Total Plans - 03</div>
+																				<div class="col-md-4 col-xs-12 line-height37 padding-right0">Selected Plans - 03
+																					<a class="up-down"><span  class="pull-right"   data-target="#demo_step2"><img src="img/down.png" /></span></a>
+																				</div>
+																				
+																			</div>
+
+																			<div class="row row-data padding-top-bottom15 xs-padding-left0" id="demo_step2" style="display:none">
+																				
+																				<div class="col-md-1 col-xs-1 hidden-xs hidden-sm">&nbsp;</div>
+																				<div class="col-md-3 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="upsized Data" />Upsized Data
+																				</span>
+																				<p class="data-paragraph">Enjoy moredata on your plan</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Entertainment Data
+																				</span>
+																				<p class="data-paragraph">Non-stop entertainment, unlimited data</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Caller Number Non-Display
+																				</span>
+																				<p class="data-paragraph">Keep your number confidential</p>
+																				</div>
+																			</div>
+
+																		</div> 
+																		<div class=" list-group-item vases-table-item">
+																			<div class="row row-heading  padding-top-bottom5 xs-padding-left0">
+																				<div class="col-md-1-edit col-md-1 col-xs-1 xs-padding-left5 padding-left5-right0"><span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" checked />
+																				</span>
+																				</div>
+																				<div class="col-md-4-edit col-md-4 col-xs-11 text-bold">
+																					<img class="padding-right10" src="img/vases_step1/news.png" alt="" /> News &amp; Information
+																				</div>
+																				<div class="col-md-3 col-xs-12 line-height37">Total Plans - 03</div>
+																				<div class="col-md-4 col-xs-12 line-height37 padding-right0">Selected Plans - 03
+																					<a class="up-down"><span  class="pull-right"  data-target="#demo_step3"><img src="img/down.png" /></span></a>
+																				</div>
+																				
+																			</div>
+
+																			<div class="row row-data padding-top-bottom15 xs-padding-left0" id="demo_step3" style="display:none">
+																				
+																				<div class="col-md-1 col-xs-1 hidden-xs hidden-sm">&nbsp;</div>
+																				<div class="col-md-3 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="upsized Data" />Upsized Data
+																				</span>
+																				<p class="data-paragraph">Enjoy moredata on your plan</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Entertainment Data
+																				</span>
+																				<p class="data-paragraph">Non-stop entertainment, unlimited data</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Caller Number Non-Display
+																				</span>
+																				<p class="data-paragraph">Keep your number confidential</p>
+																				</div>
+																			</div>
+
+																		</div>
+																		<div class=" list-group-item vases-table-item">
+																			<div class="row row-heading  padding-top-bottom5 xs-padding-left0">
+																				<div class="col-md-1-edit col-md-1 col-xs-1 xs-padding-left5 padding-left5-right0"><span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" checked />
+																				</span>
+																				</div>
+																				<div class="col-md-4-edit col-md-4 col-xs-11 text-bold">
+																					<img class="padding-right10" src="img/vases_step1/security.png" alt="" /> Privacy &amp; Security
+																				</div>
+																				<div class="col-md-3 col-xs-12 line-height37">Total Plans - 03</div>
+																				<div class="col-md-4 col-xs-12 line-height37 padding-right0">Selected Plans - 03
+																					<a class="up-down"><span  class="pull-right"  data-target="#demo_step4"><img src="img/down.png" /></span></a>
+																				</div>
+																				
+																			</div>
+
+																			<div class="row row-data padding-top-bottom15 xs-padding-left0" id="demo_step4" style="display:none">
+																				
+																				<div class="col-md-1 col-xs-1 hidden-xs hidden-sm">&nbsp;</div>
+																				<div class="col-md-3 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="upsized Data" />Upsized Data
+																				</span>
+																				<p class="data-paragraph">Enjoy moredata on your plan</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Entertainment Data
+																				</span>
+																				<p class="data-paragraph">Non-stop entertainment, unlimited data</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Caller Number Non-Display
+																				</span>
+																				<p class="data-paragraph">Keep your number confidential</p>
+																				</div>
+																			</div>
+
+																		</div>
+																		<div class=" list-group-item vases-table-item">
+																			<div class="row row-heading  padding-top-bottom5 xs-padding-left0">
+																				<div class="col-md-1-edit col-md-1 col-xs-1 xs-padding-left5 padding-left5-right0"><span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" checked />
+																				</span>
+																				</div>
+																				<div class="col-md-4-edit col-md-4 col-xs-11 text-bold">
+																					<img class="padding-right10" src="img/vases_step1/service.png" alt="" /> Other Services
+																				</div>
+																				<div class="col-md-3 col-xs-12 line-height37">Total Plans - 03</div>
+																				<div class="col-md-4 col-xs-12 line-height37 padding-right0">Selected Plans - 03
+																					<a class="up-down"><span  class="pull-right"  data-target="#demo_step5"><img src="img/down.png" /></span></a>
+																				</div>
+																				
+																			</div>
+
+																			<div class="row row-data padding-top-bottom15 xs-padding-left0" id="demo_step5" style="display:none">
+																				
+																				<div class="col-md-1 col-xs-1 hidden-xs hidden-sm">&nbsp;</div>
+																				<div class="col-md-3 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="upsized Data" />Upsized Data
+																				</span>
+																				<p class="data-paragraph">Enjoy moredata on your plan</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Entertainment Data
+																				</span>
+																				<p class="data-paragraph">Non-stop entertainment, unlimited data</p>
+																				</div>
+																				<div class="col-md-4 bs-style-small">
+																					<span class="button-checkbox">
+																					<button type="button" class="no-background"></button>
+																					<input type="checkbox" class="hidden" value="entertainment Data" />Caller Number Non-Display
+																				</span>
+																				<p class="data-paragraph">Keep your number confidential</p>
+																				</div>
+																			</div>
+
+																		</div>
+																	
+																</div>
+																<!--List Group End-->
+																</div>
+														
+															<!-- Subsribe Vases Table Panel End -->
+															<button type="button" class="btn btn-default btn-xs btn-xs-block blue-sm-btn pull-right margin-top40 next-step">Next</button>
+														</div>
+
+													</div>
+													<!--Step2 Section Start-->
+													
+													<!--Step3 Section Start-->
+													<div class="tab-pane panel-noradius" role="tabpanel" id="step3">
+
+														<div class="panel panel-default Subscribe-vas-table margin-left-right5perc bottom-radius0">
+															<!-- Subsribe Vases step3 Header Section Start -->
+															<div class="panel-heading vases-heading xs-padding-left10">
+																<div class="txt-font13">Subscribe VASes</div>
+															</div>
+															<!-- Subsribe Vases step3 Header Section End -->
+															<!-- Subsribe Vases step3 Table Panel Start -->
+															<div class="panel-body padding-top0 padding-left-right0">
+																<!--Search Section Start-->
+																<div class="row padding15">
+																	<div class="col-md-8 col-sm-6 col-xs-12">
+																		<div class="media padding-top5">
+																		  <div class="media-left">
+																				<img src="img/alert.png" alt="alert">
+																		  </div>
+																		  <div class="media-body">
+																				<span class="alert-msg">VASes Eligibility Conflict, uncheck the VAS to proceed</span>
+																		  </div>
+																		</div>
+																	</div>
+																	<div class="col-md-4 col-sm-6 col-xs-12 pull-right">
+																		<div class="input-group search-add-on">
+																		  <input class="form-control" placeholder="Serach by service line" type="text">
+																		  <div class="input-group-btn">
+																			<button class="btn search-btn" type="button"><img src="img/search.png"></button>
+																		  </div>
+																		</div>
+																	</div>
+																</div>
+																<!--Search Section End-->
+																<!--Table Section For Desktop Start-->
+																	<div class="list-group viewlist-grid-text hidden-xs">
+																	<!--Table Header  Fixed Start-->
+																	<div class="row  list-group-item  viewlist-header-grid vases-table-header padding-left15">
+																		<div class="col-md-1 col-sm-1 col-md-subsribe1">
+																			<span class="common-button-checkbox">
+																			<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																				<input type="checkbox" value="" class="hidden" checked="">
+																			</span>
+																		</div>
+																		<div class="col-md-2 col-sm-2 txt-font12">Service Number</div>
+																		<div class="col-md-2 col-sm-2 font12">Current Plan</div>
+																		<div class="col-md-1 col-sm-1 col-md-plan1">Current Plan Cancellation</div>
+																		<div class="col-md-2 col-sm-2 col-md-newplan2 txt-font12">New Plan</div>
+																		<div class="col-md-2 col-sm-2 col-md-reg2 txt-font12">Registration Charges</div>
+																		<div class="col-md-2 col-sm-2 col-md-reg2 txt-font12">Monthly Subscription</div>
+																	</div>
+																	<!--Table Header  Fixed End-->
+																	<!--Table Body  repeat Start-->
+																	<div class=" list-group-item vases-table-item">
+																		<div class="row row-heading active-heading padding-left15">
+																			<div class="col-md-1 col-md-subsribe1 col-xs-1">
+																				<span class="common-button-checkbox">
+																				<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																					<input type="checkbox" value="" class="hidden" checked="">
+																				</span>
+																			</div>
+																			<div class="col-md-2 col-xs-3 font-bold">85498758</div>
+																			<div class="col-md-7 col-xs-6"></div>
+																			<div class="col-md-2 col-md-subsribe2 col-xs-2">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo3"><img src="img/up.png" /></span></a>
+																			</div>
+																		</div>
+
+																		<div class="row padding-left25" id="demo3">
+																			<hr>
+																			<div class="col-md-12 text-bold padding-bottom10 padding-top10 subscribe-voice-left">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			<div class="col-md-12 subscribe-data">
+																				<div class="row">
+																					<div class="col-md-1 col-sm-1 col-md-subsribe1">
+																						<span class="common-button-checkbox">
+																						<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																							<input type="checkbox" value="" class="hidden" checked="">
+																						</span>
+																					</div>
+																					<div class="col-md-2 col-sm-2">
+																						<div class="left-orange-inline-border txt-font13 padding-left10">
+																							<span class="display-inlineBlock">
+																								Upsized Data
+																							</span>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 txt-font13">
+																						Upsized Data plus
+																					</div>
+																					<div class="col-md-1  col-sm-1 col-md-plan1 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-newplan2">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																				</div>
+																				<hr>
+																				<div class="row margin-bottom10">
+																					<div class="col-md-1 col-sm-1 col-md-subsribe1">
+																						<span class="common-button-checkbox">
+																						<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																							<input type="checkbox" value="" class="hidden" checked="">
+																						</span>
+																					</div>
+																					<div class="col-md-2 col-sm-2">
+																						<div class="left-orange-inline-border txt-font13 padding-left10">
+																							<span class="display-inlineBlock">
+																								Caller number non display
+																							</span>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 txt-font13">
+																						Permanent
+																					</div>
+																					<div class="col-md-1 col-sm-1 col-md-plan1 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-newplan2">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
+
+																	<div class=" list-group-item vases-table-item">
+																		<div class="row row-heading padding-left15">
+																			<div class="col-md-1 col-md-subsribe1 col-xs-1">
+																				<span class="common-button-checkbox">
+																				<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																					<input type="checkbox" value="" class="hidden" checked="">
+																				</span>
+																			</div>
+																			<div class="col-md-2 col-xs-3 font-bold">85498758</div>
+																			<div class="col-md-7 col-xs-6">
+																				<div class="media">
+																				  <div class="media-left">
+																						<img src="img/alert.png" alt="alert">
+																				  </div>
+																				  <div class="media-body">
+																						<span class="alert-msg">VASes Eligibility Conflict, uncheck the VAS to proceed</span>
+																				  </div>
+																				</div>
+																			</div>
+																			<div class="col-md-2 col-md-subsribe2 col-xs-2">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo4"><img src="img/down.png" /></span></a>
+																			</div>
+																		</div>
+
+																		<div class="row padding-left25 collapse" id="demo4">
+																			<hr>
+																			<div class="col-md-12 text-bold padding-bottom10 padding-top10 subscribe-voice-left">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			<div class="col-md-12 subscribe-data">
+																				<div class="row">
+																					<div class="col-md-1 col-sm-1 col-md-subsribe1">
+																						<span class="common-button-checkbox">
+																						<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																							<input type="checkbox" value="" class="hidden" checked="">
+																						</span>
+																					</div>
+																					<div class="col-md-2 col-sm-2">
+																						<div class="left-orange-inline-border txt-font13 padding-left10">
+																							<span class="display-inlineBlock">
+																								Upsized Data
+																							</span>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 txt-font13">
+																						Upsized Data plus
+																					</div>
+																					<div class="col-md-1  col-sm-1 col-md-plan1 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-newplan2">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																				</div>
+																				<hr>
+																				<div class="row margin-bottom10">
+																					<div class="col-md-1 col-sm-1 col-md-subsribe1">
+																						<span class="common-button-checkbox">
+																						<button type="button" class="common-no-background"><span class="state-icon common-custom-check common-checked-box"></span></button>
+																							<input type="checkbox" value="" class="hidden" checked="">
+																						</span>
+																					</div>
+																					<div class="col-md-2 col-sm-2">
+																						<div class="left-orange-inline-border txt-font13 padding-left10">
+																							<span class="dispaly-inlineBlock">
+																								Upsized Data
+																							</span>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 txt-font13">
+																						Upsized Data plus
+																					</div>
+																					<div class="col-md-1 col-sm-1 col-md-plan1 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-newplan2">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																					<div class="col-md-2 col-sm-2 col-md-reg2 txt-font13 text-align-right">
+																						$10.00
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
+																	 <div class="pull-right padding-top15">
+																	<ul class="pagination">
+																		<li><a href="#"><img src="img/backword.png" alt="" /></a></li>
+																		<li><a href="#">1</a></li>
+																		<li><a href="#">2</a></li>
+																		<li><a href="#">3</a></li>
+																		<li><a href="#"><img src="img/forward.png" alt="" /></a></li>
+																	</ul>
+																</div>
+																</div>
+																<!--Table Section For Desktop End-->
+																<!--Table Section For Mobile Start-->
+																<div class="hidden-md hidden-sm hidden-lg panel-noradius">
+																<!--Panel Repeat Start-->
+																<div class="panel panel-default xs-panel-data margin-bottom0">
+																	<div class="panel-heading row-heading active-heading">
+																		<div class="row padding-top-bottom-10">
+																			<div class="col-xs-7 text-bold">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				Service Number
+																			</div>
+																			<div class="col-xs-5 text-bold text-align-right">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				85968581
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-xs-12">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo_xs1"><img src="img/up.png" /></span></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="panel-body padding-top0 padding-bottom0">
+																		<div class="row row-data xs-row-data" id="demo_xs1">
+																			<div class="col-xs-12 text-bold padding-top10 padding-bottom10 padding-left10">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			
+																			<div class="col-xs-12">
+																				<div class="row">
+																					<div class="col-xs-12">
+																						<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																						</span>
+																						<div class="left-orange-border txt-font13 padding-left10 display-inlineBlock">
+																							Upsized Data
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan</div>
+																					<div class="col-xs-6 text-align-right">Upsized Data Plus </div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan Cancellation</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-12 text-bold padding-bottom10">New Plan</div>
+																					<div class="col-xs-12">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Registration Charges</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Monthly Subscription</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																			</div>
+																			<div class="col-xs-12"><hr class="hr-border"></div>
+																			<div class="col-xs-12">
+																				<div class="row">
+																					<div class="col-xs-12">
+																						<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																						</span>
+																						<div class="left-orange-border txt-font13 padding-left10 display-inlineBlock">
+																							Upsized Data
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan</div>
+																					<div class="col-xs-6 text-align-right">Upsized Data Plus </div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan Cancellation</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-12 text-bold padding-bottom10">New Plan</div>
+																					<div class="col-xs-12">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Registration Charges</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Monthly Subscription</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!--Panel Repeat End-->
+																
+																<!--Panel Repeat Start-->
+																<div class="panel panel-default xs-panel-data margin-bottom0">
+																	<div class="panel-heading row-heading">
+																		<div class="row padding-top-bottom-10">
+																			<div class="col-xs-7 text-bold">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				Service Number
+																			</div>
+																			<div class="col-xs-5 text-bold text-align-right">
+																				<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																				</span>
+																				85968581
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-xs-12">
+																				<div class="media padding-top5">
+																				  <div class="media-left">
+																						<img src="img/alert.png" alt="alert">
+																				  </div>
+																				  <div class="media-body">
+																						<span class="alert-msg">VASes Eligibility Conflict, uncheck the VAS to proceed</span>
+																				  </div>
+																				</div>
+																			</div>
+																			<div class="col-xs-12">
+																				<a class="up-down"><span  class="pull-right"  data-target="#demo_xs2"><img src="img/down.png" /></span></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="panel-body padding-top0 padding-bottom0">
+																		<div class="row row-data xs-row-data collapse" id="demo_xs2">
+																			<div class="col-xs-12 text-bold padding-top10 padding-bottom10 padding-left10">
+																				<img class="padding-right10" src="img/vases_step1/mobile.png" alt="" /> Mobile Voice &amp; Data
+																			</div>
+																			
+																			<div class="col-xs-12">
+																				<div class="row">
+																					<div class="col-xs-12">
+																						<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																						</span>
+																						<div class="left-orange-border txt-font13 padding-left10 display-inlineBlock">
+																							Upsized Data
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan</div>
+																					<div class="col-xs-6 text-align-right">Upsized Data Plus </div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan Cancellation</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-12 text-bold padding-bottom10">New Plan</div>
+																					<div class="col-xs-12">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Registration Charges</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Monthly Subscription</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																			</div>
+																			<div class="col-xs-12"><hr class="hr-border"></div>
+																			<div class="col-xs-12">
+																				<div class="row">
+																					<div class="col-xs-12">
+																						<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />
+																						</span>
+																						<div class="left-orange-border txt-font13 padding-left10 display-inlineBlock">
+																							Upsized Data
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan</div>
+																					<div class="col-xs-6 text-align-right">Upsized Data Plus </div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Current Plan Cancellation</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-12 text-bold padding-bottom10">New Plan</div>
+																					<div class="col-xs-12">
+																						<div class="subscribe-newplan-relative">
+																							<a class="btn btn-select">
+																								<input type="hidden" class="btn-select-input" id="" name="" value="" />
+																								<span class="btn-select-value">Select an Item</span>
+																								<span class='btn-select-arrow glyphicon glyphicon-menu-down'></span>
+																								<ul>
+																									<li class="selected">Option 1</li>
+																									<li >Option 2</li>
+																									<li>Option 3</li>
+																									<li>Option 4</li>
+																								</ul>
+																							</a>
+																						</div>
+																						<div>
+																							<a href="#">
+																								<img src="img/Info.png" alt="info">
+																							</a>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Registration Charges</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																				<div class="row padding-top20">
+																					<div class="col-xs-6 text-bold">Monthly Subscription</div>
+																					<div class="col-xs-6 text-align-right">$10.00</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!--Panel Repeat End-->
+																</div>																
+																<!--Table Section For Mobile End-->
+															<!--Subsribe Vases step3 Table Panel Start For Mobile End-->
+															<!-- Subsribe Vases step3 Table Panel End -->
+															</div>
+															<button type="button" class="btn btn-default btn-xs btn-xs-block blue-sm-btn pull-right margin-top40 next-step">Next</button>
+														</div>
+
+													</div>
+													<!--Step3 Section End-->
+													
+													<!--Step4 Section Start-->
+													<div class="tab-pane panel-noradius" role="tabpanel" id="step4">
+
+														<div class="panel panel-default Subscribe-vas-table margin-left-right5perc bottom-radius0">
+															<!-- Subsribe Vases step4 Header Section Start -->
+															<div class="panel-heading vases-heading xs-padding-left10">
+																<div class="txt-font13">Subscribe VASes</div>
+															</div>
+															<!-- Subsribe Vases step4 Header Section End -->
+															<div class="panel-body">
+																<!--Vases Selected Panel Start-->
+																<div class="panel panel-default ">
+																	<div class="panel-heading active-heading">
+																			<div class="display-inlineBlock xs-txt-font12">
+																				<b>4 VASEes Selected</b>
+																			</div>
+																			<div class="display-inlineBlock pull-right xs320-no-float">
+																				<a class="plus-minus"><span  data-target="#vases">view less</span></a>
+																			</div>
+																	</div>
+																	<div id="vases" class="panel-body xs-panel-body">
+																		<span class="selected-access margin-left0">Upsized Data Plus
+																			<!-- <img src="img/Off_Btn.png" class="remove-button" alt="" width="12" /> -->
+																		</span>
+
+																		<span class="selected-access">Entertainment Data
+																			<!-- <img src="img/Off_Btn.png" class="remove-button" alt="" width="12" /> -->
+																		</span>
+																	</div>
+																</div>
+																<!--Vases Selected Panel End-->
+																<!-- Service line selected -->
+																<div class="panel panel-default">
+																	<div class="panel-heading">
+																		<div class="display-inlineBlock xs-txt-font12">
+																			<b>20 Service Line Selected</b>
+																		</div>
+																		<div class="display-inlineBlock pull-right xs320-no-float">
+																			<a class="plus-minus"><span  data-target="#serviceline">view more</span></a>
+																		</div>
+																	</div>
+																	<div id="serviceline" class="panel-body xs-panel-body" style="display:none">
+																		<span class="selected-access margin-left0">Upsized Data Plus
+																			<!-- <img src="img/Off_Btn.png" class="remove-button" alt="" width="12" /> -->
+																		</span>
+
+																		<span class="selected-access">Entertainment Data
+																			<!-- <img src="img/Off_Btn.png" class="remove-button" alt="" width="12" /> -->
+																		</span>
+																	</div>
+																</div>
+																<!-- Service line end -->
+																
+																<!-- Term And Condition Start -->
+																<div class="panel panel-default">
+																	<div class="panel-heading">
+																		<div class="display-inlineBlock xs-txt-font12">
+																			<b>Terms &amp; Conditions</b>
+																		</div>
+																		<div class="display-inlineBlock pull-right xs320-no-float">
+																			<a class="plus-minus"><span  data-target="#demo5">view more</span></a>
+																		</div>
+																	</div>
+																	<div id="demo5" class="panel-body xs-panel-body" style="display:none">
+																		<span class="selected-access margin-left0">Upsized Data Plus
+																			<!-- <img src="img/Off_Btn.png" class="remove-button" alt="" width="12" /> -->
+																		</span>
+																		<div class="txt-font12 margin-top20">
+																			Upsized Data Plus is only available to lines with an existing eligible contract on selected mobile or mobile broadband plans. Upon expiry of the applicable contract, additional Upsized Data Plus subscription fee of $8/month will be applicable, on top of existing Upsized Data Plus subscription fee of $11.80/month.
+																			Upon re-contract of mobile line or mobile broadband, additional Upsized Data Plus subscription fee of $8/month will be automatically removed.
+																			Each mobile or mobile broadband line may only be subscribed to Upsized Data, Upsized Data Plus or Upsized Data Super.
+																			Upon subscription to Upsized Data Plus, existing Upsized Data / Upsized Data Super (if any) will be automatically removed.
+																			When switching between Upsized Data, Upsized Data Plus or Upsized Data Super, (i) monthly subscription will not be pro-rated and (ii) registration charge will be waived.
+																		</div>
+																		<hr>
+																		<span class="selected-access margin-left0">Entertainment Data
+																			<!-- <img src="img/Off_Btn.png" class="remove-button" alt="" width="12" /> -->
+																		</span>
+																		<div class="txt-font12 margin-top20">
+																			Monthly subscription of 4G VAS is waived permanently
+																			The typical speed range of 300Mbps is 41.1 - 104.0Mbps (at fixed locations), which refers to the range of download speeds that users can experience 80% of the time based on the specific test conditions and parameters which are stipulated on www.m1.com.sg/MBBspeeds.Testing Time Frame: January to March 2017.
+																		</div>
+																	</div>
+																</div>
+																<!-- Term And Condition End -->
+																
+																<div class="margin-bottom10">
+																	<span class="button-checkbox gray_666"><button type="button" class="no-background"></button><input type="checkbox" class="hidden" checked />I agree to the conditions and the charges above</span>
+																</div>	
+																<hr>														
+																<div class="">
+																	<div class="txt-font15 padding-bottom10">Disclaimer</div>
+																	<div class="txt-font13 margin-bottom20">
+																		M1 shall not be liable for any costs, loss, or damage (whether direct or indirect), or for loss of revenue, loss of profits or any consequential loss whatsoever as a result of your using our services.
+																	</div>
+																	<div class="txt-font13">
+																		For further assistance or to unsubscribe for above Premium Rate Services, please call our Customer Service Hotline at 1627.
+																	</div>
+																</div>
+															</div>
+															<button type="button" class="btn btn-default btn-xs btn-xs-block blue-sm-btn pull-right margin-top40 next-step">Assign Access</button>
+														</div>
+
+													</div>
+													<!--Step4 Section End-->
+												</div>
+											</form>
+									</div>
+									<!--Wizard Section End-->
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<!--Page Body Panel Section End-->
+			</div>
+			<!--Container Section End-->
+   		</div>
+	</div>
+	<!--Main Section End-->
+   <!--Footer Section Start-->
+		<footer>
+			<div class="footer hidden-xs">
+				<!--Footer Nav Section Start-->
+				<div class="container">
+				<div class="row align-center">
+					<div class="col-md-12 col-sm-12">
+						<ul>
+							<li><a href="#">FAQ</a><span class="footer-pipeline">|</span></li> 
+							<li><a href="#">Careers</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Terms</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Terms &amp; Conditions</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Data Protection Policy</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Site Map</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Copyright Act</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">M1 Shops</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Investors</a><span class="footer-pipeline">|</span></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<!--Footer Nav Section End-->
+				
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 footer-copyright">
+						<hr>
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			</div>
+			<!--Footer For Mobile Device Start-->
+			<div class="footer-mob hidden-md hidden-sm hidden-lg">
+				<!--Footer Copyright and Social Icon Section Start-->
+				<div class="row">
+					<div class="col-xs-12">						
+						<ul>
+							<li><span class="footer-dropdown-span">Footer</span>
+								<a class="arrow-up-down footer-dropdown-arrow"><span  class="glyphicon glyphicon-menu-down pull" data-toggle="collapse" data-target="#footer-mob"></span></a>
+							</li> 				
+						</ul>
+					</div>
+					<div class="col-xs-12 collapse" id="footer-mob">
+						<ul>
+							<li><a href="#">FAQ</a></li> 
+							<li><a href="#">Careers</a></li>	
+							<li><a href="#">Site Terms</a></li>
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Data Protection Policy</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Copyright Act</a></li>
+							<li><a href="#">M1 Shops</a></li>
+							<li><a href="#">Investors</a></li>
+							<li><a href="#">Contractor's Information</a></li>					
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 footer-mob-copyright">
+						<span>&copy;</span><span>M1  l  All rights reserved</span>
+						<span class="pull-right">
+							<a href="" class="icon-hover"><img src="img/facebook.png" alt="Facebook"/></a>
+						</span>
+					</div>
+				</div>
+				<!--Footer Copyright and Social Icon Section End-->
+			</div>
+			<!--Footer For Mobile Device End-->
+		</footer>
+		<!--Footer Section End-->
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/bootstrap-datetimepicker.js"></script>
+	<script src="scripts/header-footer.js"></script>
+	<script src="scripts/header-burger.js"></script>
+	<script src="scripts/vertical-menu.js"></script>	
+	<script src="scripts/dropdown.js"></script>
+	<script src="scripts/step-wizard.js"></script>
+	<script src="scripts/common.js"></script>
+	<script>
+	  $(function(){
+			$('#dp1').datepicker({
+			format: 'dd/mm/yyyy'
+		  });
+	  });
+  </script>
+	</div>
+</body>
+
+</html>

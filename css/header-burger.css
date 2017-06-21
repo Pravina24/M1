@@ -1,0 +1,106 @@
+/*Header Burger Style Start*/
+
+.burger-menu{
+	background-color: #F5F5F5;
+	width: 320px;
+    position: absolute;
+    z-index: 9999;
+    top: 20px;
+	left: 30px;
+}
+.burger-menu ul{
+	list-style-type: none;
+}
+.burger-menu ul li{
+	padding-bottom:10px;
+}
+.burger-menu ul>li>a{
+	padding: 10px 0 10px 50px;;
+	display: inline-block;
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+.burger-menu ul>li>a:hover{
+	background-color: #E3E7E7;
+}
+.burger-menu-media-body > div{
+	font-family: GothamBold;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: #003f92;
+}
+.burger-menu-media-body > span{
+	font-family: GothamBook;
+	font-size: 14px;
+	color: #003f92;
+}
+.burger-menu-media-left{
+	padding-right: 20px;
+}
+
+/*---------------Hemburger menu overlay------------------------*/
+#side-kick-nav {
+    position: absolute;
+    z-index: 48;
+    width: 100%;
+    margin-top: 0;
+	height: 80%;
+	left:0;
+}
+
+#side-kick-nav .bottom-fill {
+    width: 100%;
+}
+#side-kick-nav .side-fill, #side-kick-nav .bottom-fill {
+    position: absolute;
+    height: 100%;
+}
+
+#side-kick-nav .bottom-fill .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#side-kick-nav .side-fill {
+    background-color: #F5F5F5;
+    width: 3000px;
+    left: -2600px;
+    top: 1px;
+}
+
+#side-kick-nav .overlay, #side-kick-nav .nav li a, #side-kick-nav .nav li span {
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+#side-kick-nav .level .overlay {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+/*Media Query For Tablet Device*/
+@media (max-width: 992px){
+	
+}
+
+/*Media Queary For Mobile Device*/
+
+@media (max-width: 767px) {
+ .burger-menu{
+	top: 20px;
+	left: 10px;
+}
+}
+/*Media query for iphone5 device Start*/
+@media screen and (device-aspect-ratio: 40/71) {
+	.burger-menu{
+		width: 300px;
+	}
+}
+/*Media query for iphone5 device End*/
+/*Header Burger Style End*/

@@ -1,0 +1,213 @@
+/*Landing Page Style Start*/
+.lb-left{
+	padding-left: 20px;
+}
+.lb-lr-padding{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.lb-bottom86{
+	padding-bottom: 6.2em;
+}
+.lb-bottom55{
+	padding-bottom: 55px;
+}
+.btn-width-125 {
+    min-width: 125px;
+}
+/*Landing Screen Header Message Start*/
+.Landing-header-msg{
+	padding-left: 20px;
+	padding-top: 15px;
+}
+.Landing-header-txt{
+	color: #f36f21;
+	font-family: GothamBook;
+	text-transform: uppercase;
+  	font-size: 29px;
+  	line-height: 1;
+  	letter-spacing: 0.5px;
+  	text-align: left;
+}
+.Landing-lastlogin-txt{
+	font-family: GothamLight;
+  	font-size: 13px;
+  	font-weight: 300;
+  	text-align: left;
+  	color: #000006;
+}
+/*Landing Screen Header Message End*/
+
+/*Landing Outstanding Bill Section Start*/
+.landing-bill-txt{
+	font-family: GothamBook;
+  	font-size: 20px;
+  	line-height: 2;
+	letter-spacing: 0.4px;
+  	text-align: left;
+  	color: #000000;
+}
+.landing-amount-txt{
+	font-family: GothamBook;
+  	font-size: 40px;
+  	line-height: 1;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #e56e1f;
+}
+/*Orange vertical Border Start*/
+.landing-amount-border{
+	border-right: 1px solid #e56e1f;
+}
+/*Orange vertical Border End*/
+.landing-amount-main{
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+/*Landing Outstanding Bill Section End*/
+/*Landing Toggle Button Section Start*/
+.landing-toggle-main .list-group-item:first-child,
+.landing-toggle-main .list-group-item:last-child{
+	border-radius: 0px;
+}
+.landing-toggle-main .list-group-item{
+	font-size: 15px;
+  	letter-spacing: 0.3px;
+  	text-align: left;
+	color: #ffffff;
+	border:0px;
+	padding: 0px;
+}
+.landing-toggle-main .list-group-item >div:first-child{
+	width:75%;
+}
+.landing-toggle-padding{
+	display: inline-block;
+	padding: 10px 15px;
+}
+.toggle-icon-border{
+	border-left: 1px solid #f3f7f8;
+}
+.landing-account{
+	background-color: #98b2d3;
+}
+.landing-pay{
+	background-color: #658abd;
+}
+.landing-exceed{
+	 background-color: #3365a8;
+}
+.landing-tansaction{
+	background-color: #003f92;
+}
+.landing-toggle-dropdown > .btn-select{
+	margin-bottom: 0px;
+}
+.plus-minus{
+	cursor: pointer;
+}
+/*Landing Toggle Button Section End*/
+/*Landing Page Style End*/
+
+/*Landing NA Page Style Start*/
+.landing-NA-center{
+}
+.landing-NA-paynow{
+	padding-top: 21px;
+}
+.landing-NA-notifynow{
+	padding-top: 39px;
+}
+.landing-NA-media{
+	margin-top: 7px;	
+}
+.landing-NA-media > .media-left{
+	padding-left: 20px;
+	padding-right: 30px;
+}
+.landing-NA-noaccount-body{
+	font-family: GothamBook;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+.landing-NA-hr{
+	display: none;
+}
+/*Landing NA Page Style End*/
+
+/*Media Queary For Mobile Device*/
+
+@media only screen and (max-width: 767px) {
+	.landing-toggle-main .list-group-item >div:first-child {
+		width: 74%;
+	}
+	.landing-amount-border {
+		border-right: none;
+	}
+	.landing-amount-main {
+		padding-top: 1em;
+		padding-bottom: 0px;
+	}
+	.landing-toggle-main-padding {
+		padding-top: 27px;
+	}
+	.lb-left{
+		padding-left: 0px;
+	}
+	.lb-lr-padding{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.xs-padding-bottom30{
+		padding-bottom: 30px;
+	}
+	.xs-lb-bottom0{
+		padding-bottom: 0px;
+	}
+	/*Landing NA For Mobile Start*/
+	.landing-NA-media > .media-left{
+		display: block;
+		text-align: center;
+	}
+	.landing-NA-center, .landing-NA-noaccount-body, .landing-NA-media > .media-body {
+		text-align: center;
+	}
+	.landing-NA-noaccount-body{
+		padding-top: 10px;
+	}
+	.landing-NA-hr{
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 0;
+		border-top: 1px solid #E56E1F;
+		width: 65%;
+	}
+	
+}
+
+/*Media Query For Tablet Device*/
+@media (max-width: 992px){
+	.landing-toggle-main-padding{
+		padding-top: 20px;
+	}
+}
+
+/*Media Query For ipad Pro*/
+@media only screen   and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+	.landing-toggle-main .list-group-item >div:first-child {
+    	width: 70%;
+    	font-size: 12px;
+	}
+	.lb-left{
+		padding-left: 0px;
+	}
+	.lb-lr-padding{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.btn-select{
+		min-width: 140px;
+	}
+}
