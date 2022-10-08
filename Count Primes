@@ -1,0 +1,105 @@
+Approach(Brute Force)
+The general approach is to check for every integer less than N and increment the result if they are prime. For example, consider N = 10. Now, we can run a check from 2 to N – 1 to find how many primes lie in this range. But, this approach requires a prime check on the whole range, [2, N – 1].  Therefore, this is slow.
+
+We can do some optimizations like:
+
+1. Every prime number other than 2 is an odd integer. So, after 2, we can check for odd integers only.
+2. We can check if a number is prime in O( √N) time to improve the algorithm.
+
+Algorithm
+1. If the number is less than 3, return 0, as 2 is the smallest prime
+2. Run a loop checking all numbers, starting from 3
+3. A number, N is prime if:
+	It has 0 prime factors between 2 and √N
+4. If the number is prime, increment result
+5. Print the result
+
+class count_primes
+{
+    static boolean isPrime(int N)
+    {
+        for(int i = 2 ; i * i <= N ; i++)
+            if(N % i == 0)
+                return false;
+        return true;
+    }
+    static int countPrimes(int N)
+    {
+        if(N < 3)
+            return 0;
+        int cnt = 1;//since number is atleast 3, 2 is a prime less than N
+        for(int i = 3 ; i < N ; i += 2)
+            if(isPrime(i))
+                cnt++;
+        return cnt;
+    }
+    public static void main(String args[])
+    {
+        int N = 10;
+        System.out.println(countPrimes(N));
+    }
+}
+
+Time Complexity
+We run a loop for N/2 times. In every check, a time of complexity O(N / 2) (taking average as N / 2) is spent. So, the time complexity of this algorithm is O(N√N).
+
+Space complexity
+O(1), Only constant space is used for constant variables.
+////////
+
+Algorithm
+1. Maintain a boolean array prime of size equal to N – 1
+2. prime[] is used to mark composites and checking primes at the end
+3. Initialise prime of every integer as true. The algorithm sets false to every non-prime number
+4. Run a loop of consecutive integers, starting from 2 until the first multiple of the integer is less than N:
+	For every integer x, if it has prime[x] as true, mark all its multiple as false
+	The multiple of every integer here starts from x * x as all other multiples of x will already be unmarked.
+5. Finally check how many numbers in the range [2, N – 1] have true in the prime table
+6. Print the result
+
+class count_primes
+{
+    static int sieve(int N)
+    {
+        if(N < 3)
+            return 0;
+        int cnt = 0;
+        boolean[] prime= new boolean[N];
+        for(int i = 2 ; i < N ; i++)
+            prime[i] = true;
+        for(int i = 2 ; i * i < N ; i++)
+        {
+            if(prime[i])
+                for(int j = i * i ; j < N ; j += i)
+                    prime[j] = false;
+        }
+        for(int i = 2 ; i < N ; i++)
+            if(prime[i])
+                cnt++;
+        return cnt;
+    }
+    static int countPrimes(int N)
+    {
+        if(N < 3)
+            return 0;
+        return sieve(N);
+    }
+    public static void main(String args[])
+    {
+        int N = 10;
+        System.out.println(countPrimes(N));
+    }
+}
+
+The complexity of the algorithm is O(Nlog(logN)). This can be proved as:
+
+For every integer, X, we spend a time of N / X eliminating all its multiples.
+
+So, the time spent in total is: N/2 + N/3 + N/5 + N/7 + ……
+
+Taking N as common, T(N) = N (1/2 + 1/3 + 1/5 + 1/7 + …). Sum of series (1/2 + 1/3 + 1/5 + 1/7 + …) can be proved as log(logN).
+
+Therefore, T(N) = Nlog(logN)
+
+Space complexity
+O(N), as we create a hash table to store if a number is prime or not.
